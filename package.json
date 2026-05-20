@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "scrape": "python scripts/ifa_deep_scraper.py --insecure"
+    "scrape": "python scripts/ifa_deep_scraper.py --insecure --delay 2.5",
+    "scrape:managers": "python scripts/ifa_deep_scraper.py --insecure --delay 2.5 --managers-only"
   },
   "dependencies": {
     "react": "^18.3.1",

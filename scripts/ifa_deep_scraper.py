@@ -28,6 +28,9 @@ TEAM_ID = 2735
 BASE_URL = "https://www.football.org.il"
 STATS_API = f"{BASE_URL}/Components.asmx/GetTeamPlayersStatisticsList"
 TEAM_PAGE = f"{BASE_URL}/team-details/"
+TEAM_CAT_ID = "2cf66391-238f-4199-aa04-4c61c7b892a9"
+STAFF_ITEM_ID = "d9e76668-5f1a-4149-ab0f-ba59a233c363"
+HEAD_COACH_ROLE = "מאמן הקבוצה"
 
 SEASON_LABEL_OVERRIDES: dict[int, str] = {}
 DEFAULT_SEASON_START = 10
@@ -78,6 +81,32 @@ class PlayerSeason:
                 self.minutes > 0,
             ]
         )
+
+
+@dataclass
+class ManagerSeason:
+    season_id: int
+    season_label: str
+    matches: int
+
+
+@dataclass
+class ManagerAggregate:
+    name: str
+    member_id: str = ""
+    seasons: list[ManagerSeason] = field(default_factory=list)
+
+    def add_season(self, season: ManagerSeason) -> None:
+        if season.matches <= 0:
+            return
+        self.seasons.append(season)
+
+    def totals(self) -> dict[str, Any]:
+        labels = sorted({s.season_label for s in self.seasons})
+        return {
+            "totalMatches": sum(s.matches for s in self.seasons),
+            "seasons": labels,
+        }
 
 
 @dataclass
@@ -132,6 +161,10 @@ def normalize_name_key(raw: str) -> str:
     ):
         text = text.replace(old, new)
     return " ".join(text.split()).casefold()
+
+
+def normalize_staff_name(raw: str) -> str:
+    return " ".join((raw or "").split())
 
 
 def normalize_display_name(raw: str) -> str:
@@ -284,6 +317,136 @@ class IfaClient:
                 players.append(parsed)
         return players
 
+    def fetch_staff_page(self, season_id: int) -> BeautifulSoup | None:
+        url = (
+            f"{BASE_URL}/?catid={TEAM_CAT_ID}&itemid={STAFF_ITEM_ID}"
+            f"&team_id={TEAM_ID}&season_id={season_id}"
+        )
+        try:
+            response = self.get(
+                url,
+                headers={
+                    **DEFAULT_HEADERS,
+                    "Referer": f"{TEAM_PAGE}?team_id={TEAM_ID}&season_id={season_id}",
+                },
+            )
+            if response.status_code != 200:
+                return None
+            return BeautifulSoup(response.text, "html.parser")
+        except requests.RequestException:
+            return None
+
+    def fetch_team_match_count(self, season_id: int) -> int:
+        url = f"{TEAM_PAGE}team-games?team_id={TEAM_ID}&season_id={season_id}"
+        try:
+            response = self.get(
+                url,
+                headers={
+                    **DEFAULT_HEADERS,
+                    "Referer": f"{TEAM_PAGE}?team_id={TEAM_ID}&season_id={season_id}",
+                },
+            )
+            if response.status_code != 200:
+                return 0
+            soup = BeautifulSoup(response.text, "html.parser")
+            games = soup.select("a.table_row.link_url[href*='game_id']")
+            if games:
+                return len(games)
+            return len(
+                soup.select("section.games_table a.table_row.link_url[href*='game_id']")
+            )
+        except requests.RequestException:
+            return 0
+
+
+def extract_head_coach(soup: BeautifulSoup) -> tuple[str, str] | None:
+    """Return (name, member_id) for head coach from staff page."""
+    candidates: list[tuple[str, str, int]] = []
+
+    for li in soup.select("#teamStaff li"):
+        text_div = li.select_one("div.text")
+        if not text_div:
+            continue
+
+        role_span = text_div.select_one("span")
+        roles = role_span.get_text(strip=True) if role_span else ""
+        if HEAD_COACH_ROLE not in roles and "מאמן" not in roles:
+            continue
+
+        name = ""
+        for child in text_div.children:
+            if isinstance(child, str) and child.strip():
+                name = normalize_staff_name(child)
+                break
+        if not name:
+            img = li.select_one("figure img")
+            if img and img.get("alt"):
+                name = normalize_staff_name(img["alt"])
+
+        if not name:
+            continue
+
+        member_id = ""
+        link = li.select_one("a[href*='MEMBER_ID']")
+        if link and link.get("href"):
+            parsed = urlparse(link["href"])
+            params = parse_qs(parsed.query)
+            ids = params.get("MEMBER_ID") or []
+            member_id = ids[0] if ids else ""
+
+        priority = 0 if HEAD_COACH_ROLE in roles else 1
+        candidates.append((name, member_id, priority))
+
+    if not candidates:
+        return None
+
+    candidates.sort(key=lambda c: c[2])
+    best = candidates[0]
+    return best[0], best[1]
+
+
+def scrape_managers(
+    client: IfaClient,
+    season_start: int,
+    season_end: int,
+) -> dict[str, ManagerAggregate]:
+    aggregates: dict[str, ManagerAggregate] = {}
+
+    for season_id in range(season_start, season_end + 1):
+        label = client.fetch_season_label(season_id)
+        soup = client.fetch_staff_page(season_id)
+        if not soup:
+            print(f"  [managers {season_id}] staff page unavailable", flush=True)
+            continue
+
+        coach = extract_head_coach(soup)
+        if not coach:
+            print(f"  [managers {season_id}] no head coach listed", flush=True)
+            continue
+
+        name, member_id = coach
+        matches = client.fetch_team_match_count(season_id)
+        key = normalize_name_key(name)
+
+        if key not in aggregates:
+            aggregates[key] = ManagerAggregate(name=name, member_id=member_id)
+        agg = aggregates[key]
+        if member_id and not agg.member_id:
+            agg.member_id = member_id
+        agg.add_season(
+            ManagerSeason(
+                season_id=season_id,
+                season_label=label,
+                matches=matches,
+            )
+        )
+        print(
+            f"  [managers {season_id}] {name} — {matches} team matches",
+            flush=True,
+        )
+
+    return aggregates
+
 
 def _merge_season_stats(existing: PlayerSeason, incoming: PlayerSeason) -> None:
     existing.caps = max(existing.caps, incoming.caps)
@@ -388,7 +551,38 @@ def scrape_seasons(
     return aggregates
 
 
-def to_output(aggregates: dict[str, PlayerAggregate]) -> dict[str, Any]:
+def managers_to_output(aggregates: dict[str, ManagerAggregate]) -> list[dict[str, Any]]:
+    managers: list[dict[str, Any]] = []
+    for agg in aggregates.values():
+        totals = agg.totals()
+        if totals["totalMatches"] <= 0:
+            continue
+        managers.append(
+            {
+                "managerId": agg.member_id or normalize_name_key(agg.name),
+                "name": agg.name,
+                "totalMatches": totals["totalMatches"],
+                "seasons": totals["seasons"],
+                "seasonDetails": [
+                    {
+                        "seasonId": s.season_id,
+                        "seasonLabel": s.season_label,
+                        "matches": s.matches,
+                    }
+                    for s in sorted(agg.seasons, key=lambda x: x.season_id)
+                ],
+            }
+        )
+    managers.sort(
+        key=lambda m: (-m["totalMatches"], -len(m["seasons"]), m["name"]),
+    )
+    return managers
+
+
+def to_output(
+    aggregates: dict[str, PlayerAggregate],
+    managers: dict[str, ManagerAggregate],
+) -> dict[str, Any]:
     players: list[dict[str, Any]] = []
 
     for agg in aggregates.values():
@@ -417,6 +611,7 @@ def to_output(aggregates: dict[str, PlayerAggregate]) -> dict[str, Any]:
         "source": "football.org.il",
         "scrapedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "players": players,
+        "managers": managers_to_output(managers),
     }
 
 
@@ -447,6 +642,11 @@ def main() -> int:
     parser.add_argument("--delay", type=float, default=2.0)
     parser.add_argument("--output", type=Path, default=default_out)
     parser.add_argument("--insecure", action="store_true")
+    parser.add_argument(
+        "--managers-only",
+        action="store_true",
+        help="Only refresh managers; keep existing players from --output",
+    )
     args = parser.parse_args()
 
     if args.season_start > args.season_end:
@@ -459,11 +659,26 @@ def main() -> int:
         f"seasons {args.season_start}–{args.season_end}, delay={args.delay}s"
     )
 
-    aggregates = scrape_seasons(client, args.season_start, args.season_end)
-    payload = to_output(aggregates)
+    if args.managers_only and args.output.is_file():
+        with args.output.open(encoding="utf-8") as handle:
+            payload = json.load(handle)
+        print("Loaded existing dataset — updating managers only", flush=True)
+    else:
+        aggregates = scrape_seasons(client, args.season_start, args.season_end)
+        payload = to_output(aggregates, {})
+
+    print("\nScraping head coaches (בעלי תפקידים)…", flush=True)
+    managers = scrape_managers(client, args.season_start, args.season_end)
+    payload["managers"] = managers_to_output(managers)
+    payload["scrapedAt"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     write_json(payload, args.output)
 
-    print(f"\nDone — {len(payload['players'])} players written to {args.output}")
+    player_count = len(payload.get("players", []))
+    manager_count = len(payload.get("managers", []))
+    print(
+        f"\nDone — {player_count} players, "
+        f"{manager_count} managers -> {args.output}"
+    )
     if payload["players"]:
         top = payload["players"][0]
         print(

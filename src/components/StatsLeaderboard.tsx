@@ -1,4 +1,5 @@
 import type { OranitPlayer } from "@/types/oranit";
+import { formatYearsActive } from "@/utils/seasonDisplay";
 
 type LeaderboardMetric = "goals" | "caps";
 
@@ -77,9 +78,24 @@ export function StatsLeaderboard({
                         style={{ width: `${width}%` }}
                       />
                     </div>
-                    <p className="mt-1 truncate text-xs text-slate-500">
-                      {player.seasons.join(" · ")}
+                    <p className="mt-1 text-xs text-slate-500 sm:hidden">
+                      {formatYearsActive(player.seasons)}
                     </p>
+                    <div className="mt-1 hidden sm:block">
+                      <p className="truncate text-xs text-slate-500 md:hidden">
+                        {formatYearsActive(player.seasons)}
+                      </p>
+                      <div className="hidden overflow-x-auto opacity-60 md:flex md:gap-1.5 md:whitespace-nowrap md:pb-0.5">
+                        {player.seasons.map((season) => (
+                          <span
+                            key={season}
+                            className="shrink-0 rounded-md border border-slate-700/50 bg-slate-900/40 px-1.5 py-0.5 text-[10px] text-slate-400"
+                          >
+                            {season}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>

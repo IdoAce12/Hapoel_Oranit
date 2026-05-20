@@ -2,7 +2,7 @@
   "teamId": 2735,
   "teamName": "הפועל אורנית",
   "source": "football.org.il",
-  "scrapedAt": "2026-05-20T11:50:49Z",
+  "scrapedAt": "2026-05-20T12:28:48Z",
   "players": [
     {
       "playerId": "89122",
@@ -3427,6 +3427,134 @@
       "minutesPlayed": 28,
       "seasons": [
         "2010/2011"
+      ]
+    }
+  ],
+  "managers": [
+    {
+      "managerId": "14404",
+      "name": "יובל רוקח",
+      "totalMatches": 110,
+      "seasons": [
+        "2022/2023",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ],
+      "seasonDetails": [
+        {
+          "seasonId": 24,
+          "seasonLabel": "2022/2023",
+          "matches": 34
+        },
+        {
+          "seasonId": 25,
+          "seasonLabel": "2023/2024",
+          "matches": 21
+        },
+        {
+          "seasonId": 26,
+          "seasonLabel": "2024/2025",
+          "matches": 31
+        },
+        {
+          "seasonId": 27,
+          "seasonLabel": "2025/2026",
+          "matches": 24
+        }
+      ]
+    },
+    {
+      "managerId": "22235",
+      "name": "עידו אגוזי",
+      "totalMatches": 90,
+      "seasons": [
+        "2010/2011",
+        "2011/2012",
+        "2013/2014"
+      ],
+      "seasonDetails": [
+        {
+          "seasonId": 12,
+          "seasonLabel": "2010/2011",
+          "matches": 30
+        },
+        {
+          "seasonId": 13,
+          "seasonLabel": "2011/2012",
+          "matches": 30
+        },
+        {
+          "seasonId": 15,
+          "seasonLabel": "2013/2014",
+          "matches": 30
+        }
+      ]
+    },
+    {
+      "managerId": "12748",
+      "name": "ליאור בן שושן",
+      "totalMatches": 52,
+      "seasons": [
+        "2015/2016",
+        "2016/2017"
+      ],
+      "seasonDetails": [
+        {
+          "seasonId": 17,
+          "seasonLabel": "2015/2016",
+          "matches": 26
+        },
+        {
+          "seasonId": 18,
+          "seasonLabel": "2016/2017",
+          "matches": 26
+        }
+      ]
+    },
+    {
+      "managerId": "50434",
+      "name": "אוהד בוזגלו",
+      "totalMatches": 26,
+      "seasons": [
+        "2009/2010"
+      ],
+      "seasonDetails": [
+        {
+          "seasonId": 11,
+          "seasonLabel": "2009/2010",
+          "matches": 26
+        }
+      ]
+    },
+    {
+      "managerId": "28238",
+      "name": "מנשה נני ששה",
+      "totalMatches": 26,
+      "seasons": [
+        "2017/2018"
+      ],
+      "seasonDetails": [
+        {
+          "seasonId": 19,
+          "seasonLabel": "2017/2018",
+          "matches": 26
+        }
+      ]
+    },
+    {
+      "managerId": "22240",
+      "name": "גרשון גליק",
+      "totalMatches": 19,
+      "seasons": [
+        "2021/2022"
+      ],
+      "seasonDetails": [
+        {
+          "seasonId": 23,
+          "seasonLabel": "2021/2022",
+          "matches": 19
+        }
       ]
     }
   ]

@@ -3,6 +3,7 @@ import type { OranitPlayer } from "@/types/oranit";
 interface LegendsGridProps {
   players: OranitPlayer[];
   highlightPlayerId?: string | null;
+  hideHeader?: boolean;
 }
 
 function initials(name: string): string {
@@ -12,17 +13,29 @@ function initials(name: string): string {
   return `${parts[0][0] ?? ""}${parts[parts.length - 1][0] ?? ""}`;
 }
 
-export function LegendsGrid({ players, highlightPlayerId }: LegendsGridProps) {
+export function LegendsGrid({
+  players,
+  highlightPlayerId,
+  hideHeader = false,
+}: LegendsGridProps) {
   return (
-    <section className="rounded-2xl border border-blue-500/20 bg-gradient-to-b from-oranit-navy/90 to-oranit-midnight/95 p-5">
-      <header className="mb-5">
-        <h2 className="bg-gradient-to-l from-cyan-300 via-violet-300 to-blue-400 bg-clip-text font-display text-2xl font-bold text-transparent">
-          אגדות המועדון
-        </h2>
-        <p className="mt-1 text-sm text-slate-400">
-          שחקני מפתח — שערים, הופעות, דקות וכרטיסים מצטברים
-        </p>
-      </header>
+    <section
+      className={
+        hideHeader
+          ? ""
+          : "rounded-2xl border border-blue-500/20 bg-gradient-to-b from-oranit-navy/90 to-oranit-midnight/95 p-5"
+      }
+    >
+      {!hideHeader && (
+        <header className="mb-5">
+          <h2 className="bg-gradient-to-l from-cyan-300 via-violet-300 to-blue-400 bg-clip-text font-display text-2xl font-bold text-transparent">
+            אגדות המועדון
+          </h2>
+          <p className="mt-1 text-sm text-slate-400">
+            שחקני מפתח — שערים, הופעות, דקות וכרטיסים מצטברים
+          </p>
+        </header>
+      )}
 
       {players.length === 0 ? (
         <div className="grid place-items-center rounded-xl border border-dashed border-violet-500/30 py-16 text-slate-400">

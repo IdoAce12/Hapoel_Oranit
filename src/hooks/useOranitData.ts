@@ -9,13 +9,26 @@ import {
 
 const dataset = rawData as OranitDataset;
 
-export type AppTab = "legacy" | "efficiency" | "discipline";
+export type AppTab = "legacy" | "efficiency" | "discipline" | "managers";
 
 export function useOranitData() {
   const [activeTab, setActiveTab] = useState<AppTab>("legacy");
 
   const players = dataset.players;
+  const managers = dataset.managers ?? [];
   const metrics = useMemo(() => enrichAll(players), [players]);
+
+  const topManagers = useMemo(
+    () =>
+      [...managers]
+        .sort(
+          (a, b) =>
+            b.totalMatches - a.totalMatches ||
+            b.seasons.length - a.seasons.length,
+        )
+        .slice(0, 5),
+    [managers],
+  );
 
   const topByGoals = useMemo(
     () =>
@@ -115,6 +128,8 @@ export function useOranitData() {
     mostAggressive,
     topByYellowCards,
     topByRedCards,
+    managers,
+    topManagers,
   };
 }
 

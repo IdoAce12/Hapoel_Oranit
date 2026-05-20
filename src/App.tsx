@@ -1,8 +1,9 @@
 import { useCallback, useState } from "react";
+import { CollapsibleLegends } from "@/components/CollapsibleLegends";
 import { DisciplineLeaderboard } from "@/components/DisciplineLeaderboard";
 import { DisciplinePortal } from "@/components/DisciplinePortal";
 import { EfficiencyLeaderboard } from "@/components/EfficiencyLeaderboard";
-import { LegendsGrid } from "@/components/LegendsGrid";
+import { ManagersLeaderboard } from "@/components/ManagersLeaderboard";
 import { PlayerDetailModal } from "@/components/PlayerDetailModal";
 import { PlayerSearch } from "@/components/PlayerSearch";
 import { StatsLeaderboard } from "@/components/StatsLeaderboard";
@@ -23,6 +24,7 @@ function formatScrapedAt(iso: string): string {
 
 const TABS: { id: AppTab; label: string }[] = [
   { id: "legacy", label: "היכל התהילה" },
+  { id: "managers", label: "מאמנים על הקווים" },
   { id: "discipline", label: "פורטל משמעת" },
   { id: "efficiency", label: "יעילות" },
 ];
@@ -41,6 +43,7 @@ export default function App() {
     mostAggressive,
     topByYellowCards,
     topByRedCards,
+    topManagers,
   } = useOranitData();
 
   const [selectedPlayer, setSelectedPlayer] = useState<OranitPlayer | null>(null);
@@ -134,11 +137,15 @@ export default function App() {
                 players={topByCaps}
               />
             </div>
-            <LegendsGrid
+            <CollapsibleLegends
               players={legends}
               highlightPlayerId={highlightPlayerId}
             />
           </>
+        )}
+
+        {activeTab === "managers" && (
+          <ManagersLeaderboard managers={topManagers} />
         )}
 
         {activeTab === "discipline" && (

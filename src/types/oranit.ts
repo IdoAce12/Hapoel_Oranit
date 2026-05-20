@@ -9,12 +9,27 @@ export interface OranitPlayer {
   seasons: string[];
 }
 
+export interface ManagerSeasonDetail {
+  seasonId: number;
+  seasonLabel: string;
+  matches: number;
+}
+
+export interface OranitManager {
+  managerId: string;
+  name: string;
+  totalMatches: number;
+  seasons: string[];
+  seasonDetails?: ManagerSeasonDetail[];
+}
+
 export interface OranitDataset {
   teamId: number;
   teamName: string;
   source: string;
   scrapedAt: string;
   players: OranitPlayer[];
+  managers?: OranitManager[];
 }
 
 export interface PlayerMetrics extends OranitPlayer {
