@@ -1,0 +1,17 @@
+{
+  "short_name": "הפועל אורנית",
+  "name": "היכל התהילה - הפועל אורנית",
+  "icons": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hammer_and_sickle_red_on_transparent.svg/1200px-Hammer_and_sickle_red_on_transparent.svg.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#09090b",
+  "theme_color": "#9333ea",
+  "display": "standalone",
+  "orientation": "portrait"
+}

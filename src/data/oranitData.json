@@ -1,0 +1,3433 @@
+{
+  "teamId": 2735,
+  "teamName": "הפועל אורנית",
+  "source": "football.org.il",
+  "scrapedAt": "2026-05-20T11:50:49Z",
+  "players": [
+    {
+      "playerId": "89122",
+      "name": "אבירן בניטה",
+      "goals": 96,
+      "caps": 185,
+      "yellowCards": 26,
+      "redCards": 2,
+      "minutesPlayed": 13588,
+      "seasons": [
+        "2013/2014",
+        "2015/2016",
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "919",
+      "name": "לירון יצחק",
+      "goals": 40,
+      "caps": 165,
+      "yellowCards": 20,
+      "redCards": 1,
+      "minutesPlayed": 12218,
+      "seasons": [
+        "2010/2011",
+        "2011/2012",
+        "2013/2014",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2020/2021",
+        "2022/2023",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "98837",
+      "name": "תומר אגובל",
+      "goals": 34,
+      "caps": 203,
+      "yellowCards": 39,
+      "redCards": 1,
+      "minutesPlayed": 18215,
+      "seasons": [
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "72538",
+      "name": "יוגב ציפרוט",
+      "goals": 34,
+      "caps": 106,
+      "yellowCards": 6,
+      "redCards": 2,
+      "minutesPlayed": 8120,
+      "seasons": [
+        "2013/2014",
+        "2014/2015",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2020/2021",
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "1759",
+      "name": "אביב זלצמן",
+      "goals": 32,
+      "caps": 39,
+      "yellowCards": 10,
+      "redCards": 2,
+      "minutesPlayed": 3377,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "100098",
+      "name": "בר יצחק",
+      "goals": 28,
+      "caps": 100,
+      "yellowCards": 17,
+      "redCards": 1,
+      "minutesPlayed": 6044,
+      "seasons": [
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "143632",
+      "name": "ניר ורדי",
+      "goals": 24,
+      "caps": 53,
+      "yellowCards": 6,
+      "redCards": 0,
+      "minutesPlayed": 4089,
+      "seasons": [
+        "2022/2023",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "13199",
+      "name": "נתן אלגבי",
+      "goals": 21,
+      "caps": 16,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 1189,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "166923",
+      "name": "יהונתן ניצן",
+      "goals": 20,
+      "caps": 162,
+      "yellowCards": 21,
+      "redCards": 0,
+      "minutesPlayed": 13176,
+      "seasons": [
+        "2015/2016",
+        "2018/2019",
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "49649",
+      "name": "לב ניר טהר",
+      "goals": 20,
+      "caps": 33,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 2841,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "77376",
+      "name": "טוב ראובן סימן",
+      "goals": 17,
+      "caps": 103,
+      "yellowCards": 4,
+      "redCards": 0,
+      "minutesPlayed": 4963,
+      "seasons": [
+        "2014/2015",
+        "2015/2016",
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024"
+      ]
+    },
+    {
+      "playerId": "91672",
+      "name": "ירין בלי",
+      "goals": 16,
+      "caps": 61,
+      "yellowCards": 6,
+      "redCards": 0,
+      "minutesPlayed": 4496,
+      "seasons": [
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "40834",
+      "name": "אביתר גיצי",
+      "goals": 15,
+      "caps": 38,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 1491,
+      "seasons": [
+        "2011/2012",
+        "2014/2015",
+        "2015/2016",
+        "2016/2017",
+        "2018/2019",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "27371",
+      "name": "יעקב סבן",
+      "goals": 15,
+      "caps": 37,
+      "yellowCards": 8,
+      "redCards": 1,
+      "minutesPlayed": 3221,
+      "seasons": [
+        "2011/2012",
+        "2013/2014",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "7489",
+      "name": "גיל יוסף",
+      "goals": 14,
+      "caps": 40,
+      "yellowCards": 15,
+      "redCards": 1,
+      "minutesPlayed": 3313,
+      "seasons": [
+        "2011/2012",
+        "2013/2014",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "233091",
+      "name": "יהלי בועז",
+      "goals": 12,
+      "caps": 60,
+      "yellowCards": 8,
+      "redCards": 1,
+      "minutesPlayed": 5001,
+      "seasons": [
+        "2020/2021",
+        "2021/2022",
+        "2023/2024",
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "27115",
+      "name": "שלומי לוי",
+      "goals": 12,
+      "caps": 37,
+      "yellowCards": 14,
+      "redCards": 0,
+      "minutesPlayed": 2631,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "114355",
+      "name": "דניאל מזרחי",
+      "goals": 11,
+      "caps": 193,
+      "yellowCards": 16,
+      "redCards": 1,
+      "minutesPlayed": 14894,
+      "seasons": [
+        "2014/2015",
+        "2015/2016",
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "57288",
+      "name": "מזרחי אוראל",
+      "goals": 11,
+      "caps": 25,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 1940,
+      "seasons": [
+        "2013/2014",
+        "2019/2020",
+        "2020/2021"
+      ]
+    },
+    {
+      "playerId": "175939",
+      "name": "רן הריש",
+      "goals": 10,
+      "caps": 98,
+      "yellowCards": 10,
+      "redCards": 1,
+      "minutesPlayed": 7779,
+      "seasons": [
+        "2022/2023",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "7467",
+      "name": "עידו אלון",
+      "goals": 10,
+      "caps": 77,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 3769,
+      "seasons": [
+        "2011/2012",
+        "2013/2014",
+        "2015/2016",
+        "2016/2017",
+        "2017/2018",
+        "2019/2020"
+      ]
+    },
+    {
+      "playerId": "67272",
+      "name": "ירין דוד",
+      "goals": 10,
+      "caps": 31,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 1973,
+      "seasons": [
+        "2013/2014",
+        "2020/2021",
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "41471",
+      "name": "לירן עזרן",
+      "goals": 10,
+      "caps": 25,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 1908,
+      "seasons": [
+        "2015/2016",
+        "2016/2017",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "20668",
+      "name": "יצחק נהרי",
+      "goals": 10,
+      "caps": 18,
+      "yellowCards": 1,
+      "redCards": 2,
+      "minutesPlayed": 1249,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "17909",
+      "name": "יוני כהן",
+      "goals": 9,
+      "caps": 25,
+      "yellowCards": 4,
+      "redCards": 1,
+      "minutesPlayed": 1937,
+      "seasons": [
+        "2014/2015",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "22242",
+      "name": "רואי גרסי",
+      "goals": 8,
+      "caps": 99,
+      "yellowCards": 10,
+      "redCards": 1,
+      "minutesPlayed": 6201,
+      "seasons": [
+        "2013/2014",
+        "2015/2016",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "138778",
+      "name": "נגר אביצור",
+      "goals": 8,
+      "caps": 77,
+      "yellowCards": 4,
+      "redCards": 0,
+      "minutesPlayed": 4020,
+      "seasons": [
+        "2014/2015",
+        "2015/2016",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2021/2022",
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "140858",
+      "name": "אוהד ציפרוט",
+      "goals": 8,
+      "caps": 58,
+      "yellowCards": 3,
+      "redCards": 1,
+      "minutesPlayed": 3298,
+      "seasons": [
+        "2017/2018",
+        "2020/2021",
+        "2021/2022",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "151752",
+      "name": "יוסף מסיקה",
+      "goals": 8,
+      "caps": 20,
+      "yellowCards": 2,
+      "redCards": 1,
+      "minutesPlayed": 1507,
+      "seasons": [
+        "2023/2024",
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "49294",
+      "name": "אופיר אבישר",
+      "goals": 8,
+      "caps": 19,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 1527,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "206368",
+      "name": "עמית יעקב",
+      "goals": 7,
+      "caps": 68,
+      "yellowCards": 2,
+      "redCards": 1,
+      "minutesPlayed": 2427,
+      "seasons": [
+        "2018/2019",
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "154124",
+      "name": "ישראל (אגנניו) אסרס",
+      "goals": 7,
+      "caps": 40,
+      "yellowCards": 5,
+      "redCards": 0,
+      "minutesPlayed": 3285,
+      "seasons": [
+        "2015/2016",
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "96609",
+      "name": "אליהו אליהו",
+      "goals": 7,
+      "caps": 7,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 207,
+      "seasons": [
+        "2009/2010"
+      ]
+    },
+    {
+      "playerId": "11",
+      "name": "ארז ביאלה",
+      "goals": 6,
+      "caps": 19,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 566,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "11590",
+      "name": "יונתן אברהמי",
+      "goals": 6,
+      "caps": 17,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 1247,
+      "seasons": [
+        "2010/2011",
+        "2014/2015",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "14350",
+      "name": "ארז מאיר אהרון",
+      "goals": 5,
+      "caps": 42,
+      "yellowCards": 10,
+      "redCards": 1,
+      "minutesPlayed": 3775,
+      "seasons": [
+        "2019/2020",
+        "2020/2021",
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "19047",
+      "name": "דור מרקוביץ",
+      "goals": 5,
+      "caps": 41,
+      "yellowCards": 6,
+      "redCards": 0,
+      "minutesPlayed": 3563,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "72540",
+      "name": "יקיר שלו",
+      "goals": 5,
+      "caps": 30,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 1547,
+      "seasons": [
+        "2011/2012",
+        "2013/2014",
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "14248",
+      "name": "איתי עמר",
+      "goals": 5,
+      "caps": 27,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 1499,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "74917",
+      "name": "עידן גמליאל",
+      "goals": 5,
+      "caps": 23,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 1799,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "931",
+      "name": "שון צעירי",
+      "goals": 5,
+      "caps": 23,
+      "yellowCards": 2,
+      "redCards": 1,
+      "minutesPlayed": 1880,
+      "seasons": [
+        "2010/2011",
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "122555",
+      "name": "עמית גבאי",
+      "goals": 5,
+      "caps": 20,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 1453,
+      "seasons": [
+        "2019/2020"
+      ]
+    },
+    {
+      "playerId": "36831",
+      "name": "אלמוג עזני",
+      "goals": 5,
+      "caps": 19,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 935,
+      "seasons": [
+        "2011/2012",
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "20078",
+      "name": "לידור יפת",
+      "goals": 5,
+      "caps": 17,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 1068,
+      "seasons": [
+        "2020/2021",
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "140041",
+      "name": "כפיר קרויטורו",
+      "goals": 4,
+      "caps": 57,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 3944,
+      "seasons": [
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "46982",
+      "name": "סער בכר",
+      "goals": 4,
+      "caps": 29,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 2522,
+      "seasons": [
+        "2017/2018",
+        "2018/2019"
+      ]
+    },
+    {
+      "playerId": "143439",
+      "name": "עמוס ברמי",
+      "goals": 4,
+      "caps": 29,
+      "yellowCards": 3,
+      "redCards": 1,
+      "minutesPlayed": 1759,
+      "seasons": [
+        "2014/2015",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "1545",
+      "name": "שרון צופין",
+      "goals": 4,
+      "caps": 20,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 1896,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "914",
+      "name": "ישראל גורן",
+      "goals": 4,
+      "caps": 16,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 1450,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "8379",
+      "name": "עדן איליה",
+      "goals": 4,
+      "caps": 16,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 1291,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "103499",
+      "name": "דהאן ליאב אושר",
+      "goals": 4,
+      "caps": 14,
+      "yellowCards": 3,
+      "redCards": 1,
+      "minutesPlayed": 856,
+      "seasons": [
+        "2021/2022",
+        "2023/2024"
+      ]
+    },
+    {
+      "playerId": "123524",
+      "name": "עידו אג'ובל",
+      "goals": 4,
+      "caps": 14,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 407,
+      "seasons": [
+        "2023/2024",
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "3336",
+      "name": "כפיר דהן",
+      "goals": 4,
+      "caps": 8,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 766,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "14024",
+      "name": "משה אסולין",
+      "goals": 4,
+      "caps": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 217,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "22276",
+      "name": "טל רמלר",
+      "goals": 4,
+      "caps": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 0,
+      "seasons": [
+        "2008/2009"
+      ]
+    },
+    {
+      "playerId": "29258",
+      "name": "ליאור סופר",
+      "goals": 4,
+      "caps": 0,
+      "yellowCards": 5,
+      "redCards": 0,
+      "minutesPlayed": 0,
+      "seasons": [
+        "2008/2009"
+      ]
+    },
+    {
+      "playerId": "57695",
+      "name": "דודו גומה",
+      "goals": 3,
+      "caps": 118,
+      "yellowCards": 26,
+      "redCards": 1,
+      "minutesPlayed": 9748,
+      "seasons": [
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "106829",
+      "name": "משה גואטה",
+      "goals": 3,
+      "caps": 96,
+      "yellowCards": 8,
+      "redCards": 1,
+      "minutesPlayed": 4759,
+      "seasons": [
+        "2014/2015",
+        "2015/2016",
+        "2016/2017",
+        "2017/2018",
+        "2018/2019"
+      ]
+    },
+    {
+      "playerId": "178554",
+      "name": "בן לאויז קוסטא",
+      "goals": 3,
+      "caps": 91,
+      "yellowCards": 4,
+      "redCards": 1,
+      "minutesPlayed": 6796,
+      "seasons": [
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2020/2021"
+      ]
+    },
+    {
+      "playerId": "102701",
+      "name": "רועי אבנון",
+      "goals": 3,
+      "caps": 48,
+      "yellowCards": 8,
+      "redCards": 1,
+      "minutesPlayed": 4256,
+      "seasons": [
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020"
+      ]
+    },
+    {
+      "playerId": "69046",
+      "name": "אליהו לימורי",
+      "goals": 3,
+      "caps": 46,
+      "yellowCards": 6,
+      "redCards": 1,
+      "minutesPlayed": 3850,
+      "seasons": [
+        "2010/2011",
+        "2011/2012",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "10395",
+      "name": "לירן נהרי",
+      "goals": 3,
+      "caps": 26,
+      "yellowCards": 3,
+      "redCards": 1,
+      "minutesPlayed": 1523,
+      "seasons": [
+        "2010/2011",
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "53796",
+      "name": "שי רווח",
+      "goals": 3,
+      "caps": 25,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 1175,
+      "seasons": [
+        "2014/2015",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "108422",
+      "name": "בן יוסף יעקב",
+      "goals": 3,
+      "caps": 17,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 1107,
+      "seasons": [
+        "2015/2016",
+        "2020/2021"
+      ]
+    },
+    {
+      "playerId": "23107",
+      "name": "נדב אביטן",
+      "goals": 3,
+      "caps": 17,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 1230,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "74325",
+      "name": "אור אביב חוטה",
+      "goals": 3,
+      "caps": 13,
+      "yellowCards": 4,
+      "redCards": 1,
+      "minutesPlayed": 1045,
+      "seasons": [
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "71648",
+      "name": "גיא חזן",
+      "goals": 3,
+      "caps": 9,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 710,
+      "seasons": [
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "102403",
+      "name": "אייל בכר",
+      "goals": 3,
+      "caps": 5,
+      "yellowCards": 5,
+      "redCards": 0,
+      "minutesPlayed": 362,
+      "seasons": [
+        "2009/2010"
+      ]
+    },
+    {
+      "playerId": "61131",
+      "name": "מוטי שחר",
+      "goals": 3,
+      "caps": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 0,
+      "seasons": [
+        "2008/2009"
+      ]
+    },
+    {
+      "playerId": "95138",
+      "name": "שחר גרין",
+      "goals": 2,
+      "caps": 117,
+      "yellowCards": 12,
+      "redCards": 1,
+      "minutesPlayed": 7996,
+      "seasons": [
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "14404",
+      "name": "יובל רוקח",
+      "goals": 2,
+      "caps": 93,
+      "yellowCards": 6,
+      "redCards": 0,
+      "minutesPlayed": 5540,
+      "seasons": [
+        "2014/2015",
+        "2015/2016",
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2022/2023",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "50545",
+      "name": "דוד משה עמר",
+      "goals": 2,
+      "caps": 68,
+      "yellowCards": 4,
+      "redCards": 0,
+      "minutesPlayed": 2208,
+      "seasons": [
+        "2015/2016",
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "120486",
+      "name": "כפיר אלקלאי",
+      "goals": 2,
+      "caps": 56,
+      "yellowCards": 5,
+      "redCards": 0,
+      "minutesPlayed": 2379,
+      "seasons": [
+        "2018/2019",
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024"
+      ]
+    },
+    {
+      "playerId": "90278",
+      "name": "אורן ידיד",
+      "goals": 2,
+      "caps": 27,
+      "yellowCards": 3,
+      "redCards": 1,
+      "minutesPlayed": 1661,
+      "seasons": [
+        "2017/2018",
+        "2019/2020",
+        "2023/2024"
+      ]
+    },
+    {
+      "playerId": "7525",
+      "name": "אסף רמלר",
+      "goals": 2,
+      "caps": 27,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 2061,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "72531",
+      "name": "עידו דהן",
+      "goals": 2,
+      "caps": 27,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 1131,
+      "seasons": [
+        "2020/2021",
+        "2021/2022",
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "58539",
+      "name": "אמרי פפיר",
+      "goals": 2,
+      "caps": 26,
+      "yellowCards": 1,
+      "redCards": 1,
+      "minutesPlayed": 1783,
+      "seasons": [
+        "2015/2016",
+        "2016/2017",
+        "2017/2018"
+      ]
+    },
+    {
+      "playerId": "151773",
+      "name": "דוד רזון",
+      "goals": 2,
+      "caps": 23,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 1858,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "183342",
+      "name": "אוראל גובני",
+      "goals": 2,
+      "caps": 18,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 1030,
+      "seasons": [
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "33911",
+      "name": "מתן אור",
+      "goals": 2,
+      "caps": 18,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 977,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "165481",
+      "name": "רותם רצבי",
+      "goals": 2,
+      "caps": 17,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 798,
+      "seasons": [
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "132888",
+      "name": "משה ריי",
+      "goals": 2,
+      "caps": 14,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 699,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "19050",
+      "name": "עידן סורסקי",
+      "goals": 2,
+      "caps": 10,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 477,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "66043",
+      "name": "ולדיק ברנוב",
+      "goals": 2,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 103,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "22266",
+      "name": "איל פלוס",
+      "goals": 2,
+      "caps": 0,
+      "yellowCards": 4,
+      "redCards": 1,
+      "minutesPlayed": 0,
+      "seasons": [
+        "2008/2009"
+      ]
+    },
+    {
+      "playerId": "101649",
+      "name": "יוסי סעאת",
+      "goals": 2,
+      "caps": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 0,
+      "seasons": [
+        "2008/2009"
+      ]
+    },
+    {
+      "playerId": "15127",
+      "name": "יצחק חדד",
+      "goals": 2,
+      "caps": 0,
+      "yellowCards": 2,
+      "redCards": 1,
+      "minutesPlayed": 0,
+      "seasons": [
+        "2008/2009"
+      ]
+    },
+    {
+      "playerId": "22235",
+      "name": "עידו אגוזי",
+      "goals": 2,
+      "caps": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 0,
+      "seasons": [
+        "2008/2009"
+      ]
+    },
+    {
+      "playerId": "25738",
+      "name": "פיני סולומון",
+      "goals": 2,
+      "caps": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 0,
+      "seasons": [
+        "2008/2009"
+      ]
+    },
+    {
+      "playerId": "34072",
+      "name": "מגן זילברג",
+      "goals": 1,
+      "caps": 102,
+      "yellowCards": 25,
+      "redCards": 2,
+      "minutesPlayed": 7461,
+      "seasons": [
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "1159",
+      "name": "תובל גולדנברג",
+      "goals": 1,
+      "caps": 82,
+      "yellowCards": 9,
+      "redCards": 0,
+      "minutesPlayed": 7428,
+      "seasons": [
+        "2010/2011",
+        "2013/2014",
+        "2014/2015",
+        "2015/2016",
+        "2019/2020"
+      ]
+    },
+    {
+      "playerId": "35102",
+      "name": "עיון אליהו בן",
+      "goals": 1,
+      "caps": 33,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 2873,
+      "seasons": [
+        "2009/2010",
+        "2010/2011",
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "19149",
+      "name": "גדי יצחק",
+      "goals": 1,
+      "caps": 29,
+      "yellowCards": 4,
+      "redCards": 0,
+      "minutesPlayed": 2610,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "94528",
+      "name": "שי יצחק",
+      "goals": 1,
+      "caps": 28,
+      "yellowCards": 5,
+      "redCards": 1,
+      "minutesPlayed": 1912,
+      "seasons": [
+        "2018/2019",
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "134019",
+      "name": "עומר ברדה",
+      "goals": 1,
+      "caps": 26,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 1146,
+      "seasons": [
+        "2015/2016",
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "23910",
+      "name": "דניאל איזיקוביץ",
+      "goals": 1,
+      "caps": 25,
+      "yellowCards": 2,
+      "redCards": 1,
+      "minutesPlayed": 1716,
+      "seasons": [
+        "2014/2015",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "119925",
+      "name": "רן שפיר",
+      "goals": 1,
+      "caps": 24,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 1590,
+      "seasons": [
+        "2011/2012",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "63",
+      "name": "גיל מועלם",
+      "goals": 1,
+      "caps": 22,
+      "yellowCards": 5,
+      "redCards": 1,
+      "minutesPlayed": 1040,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "101213",
+      "name": "רונן עזורי",
+      "goals": 1,
+      "caps": 22,
+      "yellowCards": 1,
+      "redCards": 1,
+      "minutesPlayed": 1244,
+      "seasons": [
+        "2010/2011",
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "50536",
+      "name": "איליי לוי",
+      "goals": 1,
+      "caps": 21,
+      "yellowCards": 5,
+      "redCards": 1,
+      "minutesPlayed": 1931,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "97413",
+      "name": "עומר משה",
+      "goals": 1,
+      "caps": 21,
+      "yellowCards": 4,
+      "redCards": 0,
+      "minutesPlayed": 1141,
+      "seasons": [
+        "2011/2012",
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "202432",
+      "name": "אופיר יהודה כחלון",
+      "goals": 1,
+      "caps": 17,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 790,
+      "seasons": [
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "99723",
+      "name": "ניב לוי",
+      "goals": 1,
+      "caps": 17,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 629,
+      "seasons": [
+        "2019/2020",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "27788",
+      "name": "פליקס שניידר",
+      "goals": 1,
+      "caps": 17,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 1336,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "131142",
+      "name": "ליטן אללו",
+      "goals": 1,
+      "caps": 16,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 1180,
+      "seasons": [
+        "2013/2014",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "236548",
+      "name": "נווה זכריה",
+      "goals": 1,
+      "caps": 16,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 726,
+      "seasons": [
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "105323",
+      "name": "אוהד נהרי",
+      "goals": 1,
+      "caps": 14,
+      "yellowCards": 4,
+      "redCards": 1,
+      "minutesPlayed": 1008,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "40578",
+      "name": "נועם שפיר",
+      "goals": 1,
+      "caps": 14,
+      "yellowCards": 5,
+      "redCards": 1,
+      "minutesPlayed": 488,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "167522",
+      "name": "מתן נסים ז'רוזולימסקי",
+      "goals": 1,
+      "caps": 13,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 892,
+      "seasons": [
+        "2023/2024"
+      ]
+    },
+    {
+      "playerId": "89433",
+      "name": "איתי יפת",
+      "goals": 1,
+      "caps": 12,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 597,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "171058",
+      "name": "אופק מינזלבסקי",
+      "goals": 1,
+      "caps": 11,
+      "yellowCards": 0,
+      "redCards": 1,
+      "minutesPlayed": 456,
+      "seasons": [
+        "2023/2024",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "76403",
+      "name": "שלו בונקר",
+      "goals": 1,
+      "caps": 11,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 941,
+      "seasons": [
+        "2016/2017",
+        "2017/2018"
+      ]
+    },
+    {
+      "playerId": "76973",
+      "name": "מאיר אביעד בן",
+      "goals": 1,
+      "caps": 10,
+      "yellowCards": 1,
+      "redCards": 1,
+      "minutesPlayed": 397,
+      "seasons": [
+        "2022/2023",
+        "2023/2024"
+      ]
+    },
+    {
+      "playerId": "25608",
+      "name": "שגיא אברהם",
+      "goals": 1,
+      "caps": 10,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 415,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "28212",
+      "name": "ויסאם סאמה סרסור",
+      "goals": 1,
+      "caps": 9,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 651,
+      "seasons": [
+        "2009/2010"
+      ]
+    },
+    {
+      "playerId": "212544",
+      "name": "מאור מהריזי",
+      "goals": 1,
+      "caps": 9,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 253,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "7505",
+      "name": "נתן מספן",
+      "goals": 1,
+      "caps": 9,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 498,
+      "seasons": [
+        "2010/2011",
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "3840",
+      "name": "חמיס עאמר",
+      "goals": 1,
+      "caps": 8,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 714,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "27995",
+      "name": "לירן בוטיגה",
+      "goals": 1,
+      "caps": 8,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 567,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "2772",
+      "name": "איתי זייד",
+      "goals": 1,
+      "caps": 7,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 545,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "100020",
+      "name": "סימון סיפואנטס",
+      "goals": 1,
+      "caps": 6,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 238,
+      "seasons": [
+        "2015/2016",
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "128816",
+      "name": "רואי יצהרי",
+      "goals": 1,
+      "caps": 6,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 420,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "223412",
+      "name": "רמי כהן",
+      "goals": 1,
+      "caps": 6,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 216,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "236438",
+      "name": "יגל פנחס",
+      "goals": 1,
+      "caps": 5,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 192,
+      "seasons": [
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "107686",
+      "name": "עידן מסיכה",
+      "goals": 1,
+      "caps": 4,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 140,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "22240",
+      "name": "גרשון גליק",
+      "goals": 1,
+      "caps": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 119,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "136887",
+      "name": "שניר דבש",
+      "goals": 1,
+      "caps": 3,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 177,
+      "seasons": [
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "41794",
+      "name": "לירן תגר",
+      "goals": 1,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 1,
+      "minutesPlayed": 115,
+      "seasons": [
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "134017",
+      "name": "ראובן גדליה",
+      "goals": 1,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 128,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "103061",
+      "name": "גל חנניה",
+      "goals": 1,
+      "caps": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 0,
+      "seasons": [
+        "2009/2010"
+      ]
+    },
+    {
+      "playerId": "95801",
+      "name": "טל אליהו",
+      "goals": 1,
+      "caps": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 0,
+      "seasons": [
+        "2008/2009"
+      ]
+    },
+    {
+      "playerId": "67900",
+      "name": "מתן תורתי",
+      "goals": 0,
+      "caps": 75,
+      "yellowCards": 8,
+      "redCards": 0,
+      "minutesPlayed": 4545,
+      "seasons": [
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2020/2021"
+      ]
+    },
+    {
+      "playerId": "53227",
+      "name": "ולרי גורלצ'וב",
+      "goals": 0,
+      "caps": 71,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 5802,
+      "seasons": [
+        "2015/2016",
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "106449",
+      "name": "ניר נסים",
+      "goals": 0,
+      "caps": 67,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 6014,
+      "seasons": [
+        "2015/2016",
+        "2016/2017",
+        "2017/2018",
+        "2018/2019",
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "18354",
+      "name": "דניאל רחמים",
+      "goals": 0,
+      "caps": 53,
+      "yellowCards": 12,
+      "redCards": 3,
+      "minutesPlayed": 4383,
+      "seasons": [
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "61913",
+      "name": "דולב אדר",
+      "goals": 0,
+      "caps": 42,
+      "yellowCards": 6,
+      "redCards": 1,
+      "minutesPlayed": 3918,
+      "seasons": [
+        "2019/2020",
+        "2020/2021",
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "127783",
+      "name": "רון שטרקמן",
+      "goals": 0,
+      "caps": 42,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 2890,
+      "seasons": [
+        "2022/2023",
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "50257",
+      "name": "עמית רייכמן",
+      "goals": 0,
+      "caps": 37,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 3461,
+      "seasons": [
+        "2023/2024",
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "47916",
+      "name": "גלעד עמר",
+      "goals": 0,
+      "caps": 33,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 3034,
+      "seasons": [
+        "2022/2023",
+        "2023/2024",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "40989",
+      "name": "מידן קצר",
+      "goals": 0,
+      "caps": 33,
+      "yellowCards": 7,
+      "redCards": 2,
+      "minutesPlayed": 2984,
+      "seasons": [
+        "2009/2010",
+        "2010/2011",
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "59511",
+      "name": "קובי תמם",
+      "goals": 0,
+      "caps": 33,
+      "yellowCards": 2,
+      "redCards": 1,
+      "minutesPlayed": 2991,
+      "seasons": [
+        "2014/2015",
+        "2015/2016",
+        "2022/2023",
+        "2023/2024"
+      ]
+    },
+    {
+      "playerId": "25733",
+      "name": "מאור גדלוב",
+      "goals": 0,
+      "caps": 32,
+      "yellowCards": 4,
+      "redCards": 1,
+      "minutesPlayed": 2584,
+      "seasons": [
+        "2011/2012",
+        "2014/2015",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "14229",
+      "name": "יוסי ויגדור",
+      "goals": 0,
+      "caps": 31,
+      "yellowCards": 6,
+      "redCards": 0,
+      "minutesPlayed": 2741,
+      "seasons": [
+        "2009/2010",
+        "2010/2011",
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "91863",
+      "name": "בר נרקיס",
+      "goals": 0,
+      "caps": 30,
+      "yellowCards": 2,
+      "redCards": 1,
+      "minutesPlayed": 1713,
+      "seasons": [
+        "2023/2024",
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "140864",
+      "name": "טוב גיא סימן",
+      "goals": 0,
+      "caps": 29,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 1559,
+      "seasons": [
+        "2015/2016",
+        "2019/2020",
+        "2020/2021",
+        "2021/2022",
+        "2022/2023",
+        "2023/2024"
+      ]
+    },
+    {
+      "playerId": "14023",
+      "name": "שלמה יפרח",
+      "goals": 0,
+      "caps": 28,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 2579,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "1196",
+      "name": "מורן קצר",
+      "goals": 0,
+      "caps": 22,
+      "yellowCards": 14,
+      "redCards": 2,
+      "minutesPlayed": 1787,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "23923",
+      "name": "יהונתן שדה",
+      "goals": 0,
+      "caps": 21,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 1694,
+      "seasons": [
+        "2014/2015",
+        "2017/2018"
+      ]
+    },
+    {
+      "playerId": "25797",
+      "name": "עומר סהר",
+      "goals": 0,
+      "caps": 21,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 1821,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "140852",
+      "name": "אלעד סומך",
+      "goals": 0,
+      "caps": 19,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 692,
+      "seasons": [
+        "2022/2023",
+        "2023/2024",
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "32599",
+      "name": "שחף דיאמנט",
+      "goals": 0,
+      "caps": 18,
+      "yellowCards": 8,
+      "redCards": 1,
+      "minutesPlayed": 1533,
+      "seasons": [
+        "2015/2016",
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "9756",
+      "name": "שגיא ערוסי",
+      "goals": 0,
+      "caps": 17,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 1212,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "183057",
+      "name": "שלו אהרוני",
+      "goals": 0,
+      "caps": 17,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 651,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "127205",
+      "name": "ורדי ברק מילר",
+      "goals": 0,
+      "caps": 16,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 1436,
+      "seasons": [
+        "2022/2023",
+        "2023/2024"
+      ]
+    },
+    {
+      "playerId": "188185",
+      "name": "רון בועז",
+      "goals": 0,
+      "caps": 16,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 267,
+      "seasons": [
+        "2016/2017",
+        "2017/2018",
+        "2018/2019"
+      ]
+    },
+    {
+      "playerId": "15137",
+      "name": "רונן סטולפר",
+      "goals": 0,
+      "caps": 16,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 986,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "28916",
+      "name": "רועי מזרחי",
+      "goals": 0,
+      "caps": 16,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 792,
+      "seasons": [
+        "2010/2011",
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "19161",
+      "name": "גיא צוברי",
+      "goals": 0,
+      "caps": 15,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 1088,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "67737",
+      "name": "יוסי עמיר",
+      "goals": 0,
+      "caps": 15,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 585,
+      "seasons": [
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "123247",
+      "name": "ארטיום רדומישלסקי",
+      "goals": 0,
+      "caps": 14,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 523,
+      "seasons": [
+        "2024/2025",
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "107683",
+      "name": "גיא הריש",
+      "goals": 0,
+      "caps": 14,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 597,
+      "seasons": [
+        "2022/2023",
+        "2023/2024",
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "29495",
+      "name": "נעם כמוס מימון",
+      "goals": 0,
+      "caps": 14,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 1188,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "6133",
+      "name": "ויקי חכמון",
+      "goals": 0,
+      "caps": 13,
+      "yellowCards": 4,
+      "redCards": 0,
+      "minutesPlayed": 1120,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "14889",
+      "name": "אוהד שמחי",
+      "goals": 0,
+      "caps": 11,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 531,
+      "seasons": [
+        "2011/2012",
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "15116",
+      "name": "איתי אשכנזי",
+      "goals": 0,
+      "caps": 11,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 754,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "35101",
+      "name": "איתי מתנה",
+      "goals": 0,
+      "caps": 11,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 782,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "98758",
+      "name": "חן אבוטבול",
+      "goals": 0,
+      "caps": 11,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 1000,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "15441",
+      "name": "און משה בר",
+      "goals": 0,
+      "caps": 10,
+      "yellowCards": 1,
+      "redCards": 1,
+      "minutesPlayed": 762,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "14096",
+      "name": "אורן טנא",
+      "goals": 0,
+      "caps": 10,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 931,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "18453",
+      "name": "גיא פרץ",
+      "goals": 0,
+      "caps": 10,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 645,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "68230",
+      "name": "הראל לביא",
+      "goals": 0,
+      "caps": 10,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 492,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "304760",
+      "name": "יובל כדורי",
+      "goals": 0,
+      "caps": 10,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 270,
+      "seasons": [
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "133952",
+      "name": "יוסי חלאל",
+      "goals": 0,
+      "caps": 10,
+      "yellowCards": 3,
+      "redCards": 0,
+      "minutesPlayed": 457,
+      "seasons": [
+        "2011/2012",
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "57043",
+      "name": "יוסף רותם בר",
+      "goals": 0,
+      "caps": 10,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 637,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "4873",
+      "name": "יורי גילדרנר",
+      "goals": 0,
+      "caps": 10,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 901,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "72720",
+      "name": "איאד טהה",
+      "goals": 0,
+      "caps": 9,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 701,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "144221",
+      "name": "ירדן ג'רסי",
+      "goals": 0,
+      "caps": 9,
+      "yellowCards": 5,
+      "redCards": 0,
+      "minutesPlayed": 652,
+      "seasons": [
+        "2015/2016",
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "64915",
+      "name": "ירדן רבינוביץ",
+      "goals": 0,
+      "caps": 9,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 299,
+      "seasons": [
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "202228",
+      "name": "אור ליטמן",
+      "goals": 0,
+      "caps": 8,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 256,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "40176",
+      "name": "אלי רודניאנסקי",
+      "goals": 0,
+      "caps": 8,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 414,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "148345",
+      "name": "שי מידני",
+      "goals": 0,
+      "caps": 8,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 542,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "25410",
+      "name": "אור-שלום נעימי",
+      "goals": 0,
+      "caps": 7,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 486,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "89190",
+      "name": "אילן קיקוב",
+      "goals": 0,
+      "caps": 7,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 268,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "48479",
+      "name": "בועז ברכה",
+      "goals": 0,
+      "caps": 7,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 397,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "158300",
+      "name": "גלעד שועלי",
+      "goals": 0,
+      "caps": 7,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 219,
+      "seasons": [
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "107486",
+      "name": "יואל מיכאל גוט",
+      "goals": 0,
+      "caps": 7,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 614,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "22267",
+      "name": "יוסף פנסו",
+      "goals": 0,
+      "caps": 7,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 131,
+      "seasons": [
+        "2009/2010"
+      ]
+    },
+    {
+      "playerId": "107593",
+      "name": "עידו נויברגר",
+      "goals": 0,
+      "caps": 7,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 389,
+      "seasons": [
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "98178",
+      "name": "שחף אגם",
+      "goals": 0,
+      "caps": 7,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 398,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "38193",
+      "name": "אבי חוסרבי",
+      "goals": 0,
+      "caps": 6,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 155,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "99741",
+      "name": "אושרי מרריו",
+      "goals": 0,
+      "caps": 6,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 297,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "14981",
+      "name": "ואליד חאסקיה",
+      "goals": 0,
+      "caps": 6,
+      "yellowCards": 1,
+      "redCards": 1,
+      "minutesPlayed": 457,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "109885",
+      "name": "טרס קירילישין",
+      "goals": 0,
+      "caps": 6,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 383,
+      "seasons": [
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "109828",
+      "name": "תומר ברליאה",
+      "goals": 0,
+      "caps": 6,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 222,
+      "seasons": [
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "216911",
+      "name": "אור ברדה",
+      "goals": 0,
+      "caps": 5,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 233,
+      "seasons": [
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "7495",
+      "name": "גיל כהן",
+      "goals": 0,
+      "caps": 5,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 128,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "95785",
+      "name": "גל קמנצקי",
+      "goals": 0,
+      "caps": 5,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 153,
+      "seasons": [
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "111046",
+      "name": "יהונתן בוטביקה",
+      "goals": 0,
+      "caps": 5,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 244,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "34460",
+      "name": "יועד שפינר",
+      "goals": 0,
+      "caps": 5,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 187,
+      "seasons": [
+        "2009/2010"
+      ]
+    },
+    {
+      "playerId": "142260",
+      "name": "עדן ארוסי",
+      "goals": 0,
+      "caps": 5,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 326,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "28926",
+      "name": "עידו קלמנוביץ",
+      "goals": 0,
+      "caps": 5,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 103,
+      "seasons": [
+        "2011/2012",
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "19034",
+      "name": "עמית הולנדר",
+      "goals": 0,
+      "caps": 5,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 305,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "14475",
+      "name": "אביב ריין",
+      "goals": 0,
+      "caps": 4,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 403,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "135888",
+      "name": "אושרי חג'ג'",
+      "goals": 0,
+      "caps": 4,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 360,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "182906",
+      "name": "אסף בניטה",
+      "goals": 0,
+      "caps": 4,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 150,
+      "seasons": [
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "77438",
+      "name": "יונתן נגר",
+      "goals": 0,
+      "caps": 4,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 349,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "82039",
+      "name": "רון כהן",
+      "goals": 0,
+      "caps": 4,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 232,
+      "seasons": [
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "105321",
+      "name": "רז תשלה",
+      "goals": 0,
+      "caps": 4,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 168,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "67987",
+      "name": "רן עוז",
+      "goals": 0,
+      "caps": 4,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 375,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "12748",
+      "name": "שושן ליאור בן",
+      "goals": 0,
+      "caps": 4,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 92,
+      "seasons": [
+        "2009/2010",
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "151692",
+      "name": "בידני שמעון מורי",
+      "goals": 0,
+      "caps": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 113,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "92664",
+      "name": "גל טיטלבום",
+      "goals": 0,
+      "caps": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 61,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "89539",
+      "name": "דביר דהן",
+      "goals": 0,
+      "caps": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 180,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "163461",
+      "name": "דניאל וייל",
+      "goals": 0,
+      "caps": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 188,
+      "seasons": [
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "176305",
+      "name": "יוסף דיין",
+      "goals": 0,
+      "caps": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 152,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "117242",
+      "name": "כמאל גאנם",
+      "goals": 0,
+      "caps": 3,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 230,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "22252",
+      "name": "משה מהוושוף",
+      "goals": 0,
+      "caps": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 60,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "27801",
+      "name": "עינב חסון",
+      "goals": 0,
+      "caps": 3,
+      "yellowCards": 2,
+      "redCards": 0,
+      "minutesPlayed": 152,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "13888",
+      "name": "שי שאול גריב",
+      "goals": 0,
+      "caps": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 59,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "38363",
+      "name": "שמואל יוסי בן",
+      "goals": 0,
+      "caps": 3,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 156,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "262286",
+      "name": "אופיר מדמוני",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 45,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "47373",
+      "name": "אילן אוהל",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 87,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "89130",
+      "name": "איציק עובדיה",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 83,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "2839",
+      "name": "איציק עוזיאל",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 65,
+      "seasons": [
+        "2018/2019"
+      ]
+    },
+    {
+      "playerId": "125649",
+      "name": "אלדד עמר",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 87,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "7512",
+      "name": "אנטון פליד",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 128,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "70063",
+      "name": "גל ברטוב",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 187,
+      "seasons": [
+        "2018/2019",
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "133644",
+      "name": "זיו מסד",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 17,
+      "seasons": [
+        "2024/2025"
+      ]
+    },
+    {
+      "playerId": "16441",
+      "name": "טל פטרושקה",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 1,
+      "redCards": 0,
+      "minutesPlayed": 158,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "182904",
+      "name": "יואב וייץ",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 31,
+      "seasons": [
+        "2021/2022"
+      ]
+    },
+    {
+      "playerId": "45964",
+      "name": "יוסי פלמהולץ",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 100,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "67423",
+      "name": "יצחק אסף בן",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 39,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "171470",
+      "name": "רומן אוסדצ'נקו",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 22,
+      "seasons": [
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "113128",
+      "name": "רפי אלמוג",
+      "goals": 0,
+      "caps": 2,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 187,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "49770",
+      "name": "אביב עלימה",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 90,
+      "seasons": [
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "16290",
+      "name": "אביחי אמסלם",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 47,
+      "seasons": [
+        "2009/2010"
+      ]
+    },
+    {
+      "playerId": "118437",
+      "name": "אור שכטר",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 45,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "18451",
+      "name": "איתי פישר",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 90,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "74326",
+      "name": "אליחי אבוטבול",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 90,
+      "seasons": [
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "37820",
+      "name": "אלמוג אברהם",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 15,
+      "seasons": [
+        "2017/2018"
+      ]
+    },
+    {
+      "playerId": "90578",
+      "name": "אריאל בן סלומון",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 1,
+      "redCards": 1,
+      "minutesPlayed": 87,
+      "seasons": [
+        "2010/2011"
+      ]
+    },
+    {
+      "playerId": "58332",
+      "name": "בן יפה",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 94,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "2823",
+      "name": "גל אלטרוביץ'",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 15,
+      "seasons": [
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "95055",
+      "name": "דניאל ניצן",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 10,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "1331",
+      "name": "חיים כהן",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 91,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "89856",
+      "name": "חן טרנדפיר",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 92,
+      "seasons": [
+        "2025/2026"
+      ]
+    },
+    {
+      "playerId": "182891",
+      "name": "יהלי רגב",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 32,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "162690",
+      "name": "יוסף רוזנשטיין",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 11,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "62154",
+      "name": "ליאור נגוסה",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 20,
+      "seasons": [
+        "2015/2016"
+      ]
+    },
+    {
+      "playerId": "53882",
+      "name": "לירז זכאי",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 11,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "263744",
+      "name": "מאור כהן",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 40,
+      "seasons": [
+        "2022/2023"
+      ]
+    },
+    {
+      "playerId": "178555",
+      "name": "משה כהן",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 10,
+      "seasons": [
+        "2016/2017"
+      ]
+    },
+    {
+      "playerId": "17893",
+      "name": "נס שמעון",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 69,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "47296",
+      "name": "עדי חלפון",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 40,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "49504",
+      "name": "עומר עמיעד",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 125,
+      "seasons": [
+        "2011/2012"
+      ]
+    },
+    {
+      "playerId": "66315",
+      "name": "עידן אהרון",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 46,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "109797",
+      "name": "עמית קורקוש",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 16,
+      "seasons": [
+        "2014/2015"
+      ]
+    },
+    {
+      "playerId": "211941",
+      "name": "קוסמינסקי מאורו גרבוסקי",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 25,
+      "seasons": [
+        "2018/2019"
+      ]
+    },
+    {
+      "playerId": "71143",
+      "name": "רון לוי",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 28,
+      "seasons": [
+        "2020/2021"
+      ]
+    },
+    {
+      "playerId": "40531",
+      "name": "שיראל דנדיקר",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 9,
+      "seasons": [
+        "2013/2014"
+      ]
+    },
+    {
+      "playerId": "46710",
+      "name": "שלו -אבשלום דוד",
+      "goals": 0,
+      "caps": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "minutesPlayed": 28,
+      "seasons": [
+        "2010/2011"
+      ]
+    }
+  ]
+}
