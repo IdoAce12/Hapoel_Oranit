@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "scrape": "python scripts/ifa_deep_scraper.py --insecure --delay 2.5",
     "scrape:managers": "python scripts/ifa_deep_scraper.py --insecure --delay 2.5 --managers-only",
-    "scrape:outcomes": "python scripts/ifa_deep_scraper.py --insecure --delay 2.5 --outcomes-only"
+    "scrape:outcomes": "python scripts/ifa_deep_scraper.py --insecure --delay 0.3 --outcomes-only --skip-managers",
+    "scrape:all": "python scripts/ifa_deep_scraper.py --insecure --delay 2.5"
   },
   "dependencies": {
     "react": "^18.3.1",

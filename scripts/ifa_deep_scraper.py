@@ -30,7 +30,7 @@ from bs4 import BeautifulSoup
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-REQUEST_TIMEOUT = 10
+REQUEST_TIMEOUT = 5
 BLOCKED_HTTP_STATUSES = frozenset({403, 404, 429, 503})
 
 TEAM_ID = 2735
@@ -40,8 +40,18 @@ TEAM_PAGE = f"{BASE_URL}/team-details/"
 TEAM_CAT_ID = "2cf66391-238f-4199-aa04-4c61c7b892a9"
 STAFF_ITEM_ID = "d9e76668-5f1a-4149-ab0f-ba59a233c363"
 HEAD_COACH_ROLE = "מאמן הקבוצה"
-ORANIT_NAME_MARKERS = ("אורנית", "הפועל אורנית", "הפ' אורנית")
+ORANIT_NAME_MARKERS = (
+    "אורנית",
+    "הפועל אורנית",
+    "הפ' אורנית",
+    "הפועל אורנית ע",
+    "אורנית עירוני",
+    "אורנית ע.",
+    "עירוני עידו אגוזי",
+    "ע. עידו אגוזי",
+)
 NON_LEAGUE_MARKERS = ("גביע", "טוטו", "חופש", "מקדימות", "חימום", "גמר")
+LINEUP_GROUP_MARKERS = ("Active", "Replacement", "Bench")
 
 SEASON_LABEL_OVERRIDES: dict[int, str] = {}
 DEFAULT_SEASON_START = 10
@@ -243,7 +253,11 @@ def normalize_display_name(raw: str) -> str:
 
 
 def is_oranit_team_name(name: str) -> bool:
-    text = name or ""
+    text = " ".join((name or "").split())
+    if not text:
+        return False
+    if "אורנית" in text:
+        return True
     return any(marker in text for marker in ORANIT_NAME_MARKERS)
 
 
@@ -523,21 +537,24 @@ def parse_league_match_row(
         return None
 
     home_team, away_team = teams
+    if not is_oranit_team_name(home_team) and not is_oranit_team_name(away_team):
+        return None
+
+    # team-games score column is guest-home (אורח-בית)
     guest_score, home_score = score
     if is_oranit_team_name(home_team):
         oranit_goals, opponent_goals = home_score, guest_score
-    elif is_oranit_team_name(away_team):
-        oranit_goals, opponent_goals = guest_score, home_score
     else:
-        return None
+        oranit_goals, opponent_goals = guest_score, home_score
 
     parsed = urlparse(href)
     game_ids = parse_qs(parsed.query).get("game_id") or []
-    if not game_ids:
+    game_id = game_ids[0].strip() if game_ids else ""
+    if not game_id.isdigit() or int(game_id) <= 0:
         return None
 
     return LeagueMatch(
-        game_id=game_ids[0],
+        game_id=game_id,
         season_id=season_id,
         season_label=season_label,
         outcome=outcome_from_goals(oranit_goals, opponent_goals),
@@ -619,61 +636,176 @@ def list_league_matches(client: IfaClient, season_id: int, season_label: str) ->
     return matches
 
 
-def season_caps_for_players(
-    aggregates: dict[str, PlayerAggregate],
-    season_id: int,
-) -> list[tuple[PlayerAggregate, int]]:
-    roster: list[tuple[PlayerAggregate, int]] = []
-    for agg in aggregates.values():
-        for season in agg.seasons:
-            if season.season_id == season_id and season.caps > 0:
-                roster.append((agg, season.caps))
-                break
-    return roster
+def detect_oranit_side_from_game(soup: BeautifulSoup) -> str | None:
+    home_link = soup.select_one(".teams-names .team-home a[href*='team_id']")
+    guest_link = soup.select_one(".teams-names .team-guest a[href*='team_id']")
+    home_id = extract_team_id_from_href(home_link.get("href") if home_link else None)
+    guest_id = extract_team_id_from_href(guest_link.get("href") if guest_link else None)
+    if home_id == str(TEAM_ID):
+        return "home"
+    if guest_id == str(TEAM_ID):
+        return "guest"
+
+    home_name = ""
+    guest_name = ""
+    if home_link:
+        span = home_link.select_one("span")
+        home_name = span.get_text(strip=True) if span else home_link.get_text(strip=True)
+    if guest_link:
+        span = guest_link.select_one("span")
+        guest_name = span.get_text(strip=True) if span else guest_link.get_text(strip=True)
+    if is_oranit_team_name(home_name):
+        return "home"
+    if is_oranit_team_name(guest_name):
+        return "guest"
+    return None
 
 
-def distribute_outcomes_proportional(
-    record: SeasonLeagueRecord,
-    roster: list[tuple[PlayerAggregate, int]],
-) -> int:
+def parse_game_match_result(
+    soup: BeautifulSoup,
+) -> tuple[str, int, int] | None:
     """
-    Allocate season W/D/L to players by share of squad caps (one page, no per-game fetches).
+    Authoritative score from match protocol header.
+    Returns (outcome, oranit_goals, opponent_goals).
     """
-    total_caps = sum(caps for _, caps in roster)
-    if total_caps <= 0:
-        return 0
+    oranit_side = detect_oranit_side_from_game(soup)
+    if not oranit_side:
+        return None
 
-    allocations: dict[str, list[int]] = {
-        "wins": [0] * len(roster),
-        "draws": [0] * len(roster),
-        "losses": [0] * len(roster),
-    }
-    for key, target in (
-        ("wins", record.wins),
-        ("draws", record.draws),
-        ("losses", record.losses),
-    ):
-        raw = [target * caps / total_caps for _, caps in roster]
-        floors = [int(value) for value in raw]
-        allocated = sum(floors)
-        remainders = sorted(
-            ((raw[index] - floors[index], index) for index in range(len(roster))),
-            reverse=True,
-        )
-        for offset in range(target - allocated):
-            if offset < len(remainders):
-                floors[remainders[offset][1]] += 1
-        allocations[key] = floors
+    total = soup.select_one(".teams-names .total")
+    if not total:
+        return None
 
-    credited = 0
-    for index, (agg, caps) in enumerate(roster):
-        if caps <= 0:
+    sr_names = [
+        element.get_text(strip=True)
+        for element in total.select("i.sr-only")
+        if element.get_text(strip=True)
+    ]
+    score_numbers = re.findall(r"\d+", total.get_text(" ", strip=True))
+    if len(score_numbers) < 2:
+        score_match = re.search(r"(\d+)\s*:\s*(\d+)", total.get_text(" ", strip=True))
+        if not score_match:
+            return None
+        home_score = int(score_match.group(1))
+        away_score = int(score_match.group(2))
+    else:
+        home_score = int(score_numbers[0])
+        away_score = int(score_numbers[1])
+
+    if len(sr_names) >= 2:
+        home_name, away_name = sr_names[0], sr_names[1]
+        if is_oranit_team_name(home_name):
+            oranit_goals, opponent_goals = home_score, away_score
+        elif is_oranit_team_name(away_name):
+            oranit_goals, opponent_goals = away_score, home_score
+        else:
+            return None
+    elif oranit_side == "home":
+        oranit_goals, opponent_goals = home_score, away_score
+    else:
+        oranit_goals, opponent_goals = away_score, home_score
+
+    outcome = outcome_from_goals(oranit_goals, opponent_goals)
+    return outcome, oranit_goals, opponent_goals
+
+
+def extract_oranit_participants_from_game(
+    soup: BeautifulSoup,
+    oranit_side: str,
+) -> list[tuple[str, str]]:
+    side_class = "home" if oranit_side == "home" else "guest"
+    participants: list[tuple[str, str]] = []
+    seen: set[str] = set()
+
+    for section in soup.select("#teams div.home, #teams div.guest"):
+        classes = section.get("class") or []
+        if side_class not in classes:
             continue
-        agg.wins += allocations["wins"][index]
-        agg.draws += allocations["draws"][index]
-        agg.losses += allocations["losses"][index]
-        credited += 1
-    return credited
+        if not any(marker in classes for marker in LINEUP_GROUP_MARKERS):
+            continue
+        for link in section.select("a[href*='player_id']"):
+            player_id = extract_player_id(link.get("href"))
+            if not player_id or player_id in seen:
+                continue
+            seen.add(player_id)
+            name_el = link.select_one(".name b") or link.select_one(".name")
+            display_name = ""
+            if name_el:
+                display_name = " ".join(name_el.get_text(" ", strip=True).split())
+            participants.append((player_id, display_name))
+
+    return participants
+
+
+def build_player_name_index(
+    aggregates: dict[str, PlayerAggregate],
+) -> dict[str, PlayerAggregate]:
+    return {
+        normalize_name_key(aggregate.name): aggregate
+        for aggregate in aggregates.values()
+        if aggregate.name
+    }
+
+
+def resolve_player_aggregate(
+    player_id: str,
+    display_name: str,
+    aggregates: dict[str, PlayerAggregate],
+    by_name: dict[str, PlayerAggregate],
+) -> PlayerAggregate | None:
+    if player_id in aggregates:
+        return aggregates[player_id]
+    if display_name:
+        matched = by_name.get(normalize_name_key(display_name))
+        if matched:
+            return matched
+        reversed_name = normalize_display_name(display_name)
+        if reversed_name != display_name:
+            matched = by_name.get(normalize_name_key(reversed_name))
+            if matched:
+                return matched
+    return None
+
+
+def allocate_outcomes_for_caps(
+    caps: int,
+    matches: list[LeagueMatch],
+) -> tuple[int, int, int]:
+    """
+    Credit W/D/L for a player who appeared in `caps` league matches this season.
+
+    When caps equals the number of league fixtures, the player receives the
+    team's exact season W/D/L from the schedule page. Otherwise we allocate
+    `caps` outcomes preserving the season's win/draw/loss ratio (largest
+    remainder), which matches partial-season involvement without per-game fetches.
+    """
+    if caps <= 0 or not matches:
+        return 0, 0, 0
+
+    total = len(matches)
+    appearances = min(caps, total)
+    wins_in_season = sum(1 for match in matches if match.outcome == "W")
+    draws_in_season = sum(1 for match in matches if match.outcome == "D")
+    losses_in_season = sum(1 for match in matches if match.outcome == "L")
+
+    if appearances == total:
+        return wins_in_season, draws_in_season, losses_in_season
+
+    targets = {
+        "W": wins_in_season * appearances / total,
+        "D": draws_in_season * appearances / total,
+        "L": losses_in_season * appearances / total,
+    }
+    floors = {key: int(value) for key, value in targets.items()}
+    allocated = sum(floors.values())
+    remainders = sorted(
+        ((targets[key] - floors[key], key) for key in ("W", "D", "L")),
+        reverse=True,
+    )
+    for index in range(appearances - allocated):
+        if index < len(remainders):
+            floors[remainders[index][1]] += 1
+    return floors["W"], floors["D"], floors["L"]
 
 
 def ingest_season_player_rows(
@@ -711,28 +843,62 @@ def scrape_player_outcomes(
     on_season_done: Any | None = None,
 ) -> None:
     """
-    Fast path: team-details league table + seasonal caps (2 requests/season).
+    Fast W/D/L: two requests per season (team schedule + player stats API).
+
+    1. Parse league fixtures from team-games (home/away goals, Oranit name variants).
+    2. Load each player's caps for the season from GetTeamPlayersStatisticsList.
+    3. Credit wins/draws/losses from schedule outcomes for caps appearances.
     """
+    by_name = build_player_name_index(aggregates)
+
     for season_id in range(season_start, season_end + 1):
         label = client.fetch_season_label(season_id)
-        record = fetch_season_league_record(client, season_id, label)
-        if not record or record.matches <= 0:
-            print(f"  [outcomes {season_id}] no league summary — skip", flush=True)
+        matches = list_league_matches(client, season_id, label)
+        if not matches:
+            print(f"  [outcomes {season_id}] no league matches on schedule", flush=True)
             if on_season_done:
                 on_season_done()
             continue
 
-        roster = season_caps_for_players(aggregates, season_id)
-        if not roster:
-            rows = client.fetch_player_statistics(season_id)
-            if rows:
-                ingest_season_player_rows(aggregates, season_id, label, rows)
-                roster = season_caps_for_players(aggregates, season_id)
+        player_rows = client.fetch_player_statistics(season_id)
+        if not player_rows:
+            print(
+                f"  [outcomes {season_id}] schedule ok ({len(matches)} games) "
+                f"but no player stats",
+                flush=True,
+            )
+            if on_season_done:
+                on_season_done()
+            continue
 
-        credited = distribute_outcomes_proportional(record, roster)
+        season_wins, season_draws, season_losses, _ = season_outcome_totals(matches)
+        credited_players = 0
+
+        for row in player_rows:
+            caps = row["caps"]
+            if caps <= 0:
+                continue
+
+            aggregate = resolve_player_aggregate(
+                row["player_id"],
+                row["name"],
+                aggregates,
+                by_name,
+            )
+            if not aggregate:
+                continue
+
+            wins, draws, losses = allocate_outcomes_for_caps(caps, matches)
+            aggregate.wins += wins
+            aggregate.draws += draws
+            aggregate.losses += losses
+            credited_players += 1
+            by_name[normalize_name_key(aggregate.name)] = aggregate
+
         print(
-            f"  [outcomes {season_id}] table {record.wins}W {record.draws}D "
-            f"{record.losses}L / {record.matches} — {credited} players",
+            f"  [outcomes {season_id}] {len(matches)} fixtures "
+            f"({season_wins}W {season_draws}D {season_losses}L), "
+            f"{credited_players} players credited (2 requests)",
             flush=True,
         )
         if on_season_done:
@@ -745,18 +911,6 @@ def season_outcome_totals(matches: list[LeagueMatch]) -> tuple[int, int, int, in
     losses = sum(1 for match in matches if match.outcome == "L")
     total = wins + draws + losses
     return wins, draws, losses, total
-
-
-def detect_oranit_side_from_game(soup: BeautifulSoup) -> str | None:
-    home_link = soup.select_one(".teams-names .team-home a[href*='team_id']")
-    guest_link = soup.select_one(".teams-names .team-guest a[href*='team_id']")
-    home_id = extract_team_id_from_href(home_link.get("href") if home_link else None)
-    guest_id = extract_team_id_from_href(guest_link.get("href") if guest_link else None)
-    if home_id == str(TEAM_ID):
-        return "home"
-    if guest_id == str(TEAM_ID):
-        return "guest"
-    return None
 
 
 def extract_coach_from_match_report(
@@ -1070,6 +1224,97 @@ def scrape_seasons(
     return aggregates
 
 
+def managers_from_payload(payload: dict[str, Any]) -> dict[str, ManagerAggregate]:
+    """Restore manager aggregates already stored in oranitData.json."""
+    aggregates: dict[str, ManagerAggregate] = {}
+
+    for row in payload.get("managers", []):
+        name = str(row.get("name", "")).strip()
+        if not name:
+            continue
+
+        incoming = ManagerAggregate(
+            name=name,
+            member_id=str(row.get("managerId", "") or ""),
+        )
+        for detail in row.get("seasonDetails") or []:
+            season_id = int(detail.get("seasonId", 0))
+            if season_id <= 0:
+                continue
+            incoming.add_season(
+                ManagerSeason(
+                    season_id=season_id,
+                    season_label=str(detail.get("seasonLabel", "")),
+                    matches=int(detail.get("matches", 0) or 0),
+                    wins=int(detail.get("wins", 0) or 0),
+                    draws=int(detail.get("draws", 0) or 0),
+                    losses=int(detail.get("losses", 0) or 0),
+                )
+            )
+
+        key = resolve_manager_key(incoming.name, aggregates)
+        if key not in aggregates:
+            aggregates[key] = incoming
+        else:
+            merge_manager_aggregate(aggregates[key], incoming)
+
+    return aggregates
+
+
+def merge_manager_aggregate(
+    target: ManagerAggregate,
+    incoming: ManagerAggregate,
+) -> None:
+    if len(incoming.name) > len(target.name):
+        target.name = incoming.name
+    if incoming.member_id and incoming.member_id != "-1":
+        if not target.member_id or target.member_id == incoming.member_id:
+            target.member_id = incoming.member_id
+
+    by_season = {season.season_id: season for season in target.seasons}
+    for season in incoming.seasons:
+        existing = by_season.get(season.season_id)
+        if existing is None:
+            target.seasons.append(season)
+            by_season[season.season_id] = season
+        elif season.matches > existing.matches:
+            index = target.seasons.index(existing)
+            target.seasons[index] = season
+            by_season[season.season_id] = season
+
+
+def merge_manager_aggregates(
+    *sources: dict[str, ManagerAggregate],
+) -> dict[str, ManagerAggregate]:
+    """Union coaches from saved JSON and a fresh scrape; never drop historical entries."""
+    merged: dict[str, ManagerAggregate] = {}
+
+    for source in sources:
+        for aggregate in source.values():
+            key = resolve_manager_key(aggregate.name, merged)
+            if key not in merged:
+                merged[key] = ManagerAggregate(
+                    name=aggregate.name,
+                    member_id=aggregate.member_id,
+                    seasons=list(aggregate.seasons),
+                )
+            else:
+                merge_manager_aggregate(merged[key], aggregate)
+
+    return merged
+
+
+def sync_managers_to_payload(
+    payload: dict[str, Any],
+    managers: dict[str, ManagerAggregate],
+) -> None:
+    payload["managers"] = managers_to_output(managers)
+    print(
+        f"  · synced {len(payload['managers'])} managers into dataset",
+        flush=True,
+    )
+
+
 def managers_to_output(aggregates: dict[str, ManagerAggregate]) -> list[dict[str, Any]]:
     managers: list[dict[str, Any]] = []
     for agg in aggregates.values():
@@ -1206,6 +1451,13 @@ class ProgressWriter:
         try:
             if self.outcomes_only:
                 sync_player_outcomes_to_payload(self.payload, self.aggregates)
+                if self.managers is not None:
+                    sync_managers_to_payload(self.payload, self.managers)
+                elif not self.payload.get("managers"):
+                    print(
+                        "  ! checkpoint: managers array missing from payload",
+                        file=sys.stderr,
+                    )
             elif self.aggregates:
                 merged = merge_aggregates_by_name(self.aggregates)
                 updated = to_output(merged, self.managers or {})
@@ -1252,12 +1504,17 @@ def main() -> int:
     parser.add_argument(
         "--outcomes-only",
         action="store_true",
-        help="Refresh W/D/L for players and managers; keep other player stats",
+        help="Refresh player W/D/L from schedule; merge managers (keeps history)",
     )
     parser.add_argument(
         "--skip-outcomes",
         action="store_true",
         help="Skip league outcome scraping (faster, no W/D/L)",
+    )
+    parser.add_argument(
+        "--skip-managers",
+        action="store_true",
+        help="Do not scrape managers (keeps existing managers array as-is)",
     )
     args = parser.parse_args()
 
@@ -1293,19 +1550,27 @@ def main() -> int:
         if hasattr(signal, "SIGTERM"):
             signal.signal(signal.SIGTERM, handle_stop)
 
+        saved_managers: dict[str, ManagerAggregate] = {}
+
         if (args.managers_only or args.outcomes_only) and args.output.is_file():
             with args.output.open(encoding="utf-8") as handle:
                 payload = json.load(handle)
+            saved_managers = managers_from_payload(payload)
             mode = "managers" if args.managers_only else "outcomes"
-            print(f"Loaded existing dataset — updating {mode} only", flush=True)
-            for player in payload.get("players", []):
-                pid = str(player.get("playerId", ""))
-                if not pid:
-                    continue
-                aggregates[pid] = PlayerAggregate(
-                    player_id=pid,
-                    name=player.get("name", ""),
-                )
+            print(
+                f"Loaded existing dataset — updating {mode} only "
+                f"({len(saved_managers)} managers preserved in memory)",
+                flush=True,
+            )
+            if not args.managers_only:
+                for player in payload.get("players", []):
+                    pid = str(player.get("playerId", ""))
+                    if not pid:
+                        continue
+                    aggregates[pid] = PlayerAggregate(
+                        player_id=pid,
+                        name=player.get("name", ""),
+                    )
         else:
             aggregates = scrape_seasons(client, args.season_start, args.season_end)
             payload = to_output(aggregates, {})
@@ -1314,12 +1579,12 @@ def main() -> int:
             args.output,
             payload,
             aggregates,
-            managers=None,
+            managers=saved_managers or None,
             outcomes_only=args.outcomes_only or args.managers_only,
         )
-        if not args.skip_outcomes:
+        if not args.skip_outcomes and not args.managers_only:
             print(
-                "\nScraping league outcomes (season tables, ~2 req/season)…",
+                "\nScraping league outcomes (schedule + season stats, 2 req/season)…",
                 flush=True,
             )
             for agg in aggregates.values():
@@ -1362,23 +1627,46 @@ def main() -> int:
             )
             persist_checkpoint("outcomes")
 
-        print("\nScraping head coaches (בעלי תפקידים)…", flush=True)
-        managers = scrape_managers(client, args.season_start, args.season_end)
-        payload["managers"] = managers_to_output(managers)
-        if progress:
-            progress.managers = managers
-        payload["scrapedAt"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
-        write_json(payload, args.output)
-
-        if payload.get("managers"):
-            top_mgr = payload["managers"][0]
+        if not args.skip_managers:
             print(
-                f"  · top manager: {top_mgr['name']} — "
-                f"{top_mgr.get('points', 0)} pts "
-                f"({top_mgr.get('wins', 0)}W {top_mgr.get('draws', 0)}D "
-                f"{top_mgr.get('losses', 0)}L)",
+                "\nScraping head coaches (staff profiles + match protocol fallback)…",
                 flush=True,
             )
+            scraped_managers = scrape_managers(
+                client,
+                args.season_start,
+                args.season_end,
+            )
+            managers = merge_manager_aggregates(saved_managers, scraped_managers)
+            sync_managers_to_payload(payload, managers)
+            if progress:
+                progress.managers = managers
+            if payload.get("managers"):
+                top_mgr = payload["managers"][0]
+                print(
+                    f"  · top manager: {top_mgr['name']} — "
+                    f"{top_mgr.get('points', 0)} pts "
+                    f"({top_mgr.get('wins', 0)}W {top_mgr.get('draws', 0)}D "
+                    f"{top_mgr.get('losses', 0)}L)",
+                    flush=True,
+                )
+        elif saved_managers:
+            sync_managers_to_payload(payload, saved_managers)
+            if progress:
+                progress.managers = saved_managers
+            print(
+                f"  · kept {len(payload['managers'])} managers from file "
+                f"(--skip-managers)",
+                flush=True,
+            )
+        elif payload.get("managers"):
+            print(
+                f"  · kept {len(payload['managers'])} managers from file",
+                flush=True,
+            )
+
+        payload["scrapedAt"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+        write_json(payload, args.output)
 
         player_count = len(payload.get("players", []))
         manager_count = len(payload.get("managers", []))

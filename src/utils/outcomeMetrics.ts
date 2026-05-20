@@ -1,7 +1,5 @@
 import type { OranitManager, OranitPlayer } from "@/types/oranit";
 
-export const MIN_CAPS_FOR_LOSS_RATIO = 15;
-
 export function playerWins(p: OranitPlayer): number {
   return p.wins ?? 0;
 }
@@ -12,11 +10,6 @@ export function playerDraws(p: OranitPlayer): number {
 
 export function playerLosses(p: OranitPlayer): number {
   return p.losses ?? 0;
-}
-
-export function playerLossRatio(p: OranitPlayer): number {
-  if (p.caps < MIN_CAPS_FOR_LOSS_RATIO) return -1;
-  return playerLosses(p) / p.caps;
 }
 
 export function managerPoints(m: OranitManager): number {
@@ -30,6 +23,14 @@ export function managerRecord(m: OranitManager): string {
   return `${m.wins ?? 0}/${m.draws ?? 0}/${m.losses ?? 0}`;
 }
 
-export function formatPercent(value: number): string {
-  return `${(value * 100).toFixed(1)}%`;
+/** (Total Points / (Total Matches × 3)) × 100 */
+export function managerSuccessRate(m: OranitManager): number | null {
+  if (m.totalMatches <= 0) return null;
+  const points = managerPoints(m);
+  return (points / (m.totalMatches * 3)) * 100;
+}
+
+export function formatSuccessRate(rate: number | null): string {
+  if (rate == null || Number.isNaN(rate)) return "—";
+  return `${rate.toFixed(1)}%`;
 }

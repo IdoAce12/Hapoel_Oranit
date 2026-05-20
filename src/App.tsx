@@ -48,7 +48,6 @@ export default function App() {
     topManagers,
     topWinners,
     topLosers,
-    worstLossRatio,
     managersByPoints,
   } = useOranitData();
 
@@ -80,10 +79,10 @@ export default function App() {
     : null;
 
   return (
-    <div className="min-h-screen bg-oranit-midnight font-display text-slate-200">
+    <div className="flex min-h-screen flex-col bg-oranit-midnight font-display text-slate-200">
       <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(91,45,138,0.25),_transparent_55%),radial-gradient(ellipse_at_bottom_right,_rgba(37,99,235,0.18),_transparent_50%)]" />
 
-      <div className="relative mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <div className="relative mx-auto w-full max-w-7xl flex-1 px-4 py-10 sm:px-6 lg:px-8">
         <header className="mb-8 text-center">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-violet-300/80">
             Team ID {meta.teamId} · IFA Match Analytics · PWA
@@ -131,16 +130,16 @@ export default function App() {
           <>
             <div className="mb-10 grid gap-6 lg:grid-cols-2">
               <StatsLeaderboard
+                title="מלכי ההופעות"
+                subtitle="טופ 10 — הופעות רשמיות"
+                metric="caps"
+                players={topByCaps}
+              />
+              <StatsLeaderboard
                 title="מלכי השערים"
                 subtitle="טופ 10 — שערים מצטברים"
                 metric="goals"
                 players={topByGoals}
-              />
-              <StatsLeaderboard
-                title="שחקני הרשומה"
-                subtitle="טופ 10 — הופעות רשמיות"
-                metric="caps"
-                players={topByCaps}
               />
             </div>
             <CollapsibleLegends
@@ -181,17 +180,15 @@ export default function App() {
           <OutcomesDashboard
             topWinners={topWinners}
             topLosers={topLosers}
-            worstLossRatio={worstLossRatio}
             managersByPoints={managersByPoints}
           />
         )}
 
-        <footer className="mt-12 border-t border-violet-500/20 pt-6 text-center text-xs text-slate-500">
-          מקור: football.org.il · נתונים נאספו באמצעות{" "}
-          <code className="text-cyan-400/80">scripts/ifa_deep_scraper.py</code>
-          · התקן כאפליקציה מהדפדפן (Add to Home Screen)
-        </footer>
       </div>
+
+      <footer className="relative mt-auto border-t border-violet-500/15 py-8 text-center">
+        <p className="text-sm text-zinc-500">נוצר ע&quot;י IdoAce12</p>
+      </footer>
 
       <PlayerDetailModal
         player={selectedMetrics}

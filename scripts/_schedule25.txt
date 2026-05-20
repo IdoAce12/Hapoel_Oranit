@@ -1,0 +1,1337 @@
+
+<!DOCTYPE html>
+
+<html lang="he" prefix="og: http://ogp.me/ns#">
+<head id="Head1"><base href="https://www.football.org.il/"/><meta content="IE=Edge" http-equiv="X-UA-Compatible"/><script src="/ScriptResource.axd?d=fCIVdniiJpCI7x-04SWuuVP39ZnAjv-qNw05MZoF-brhHY4VL_FWsYoWEQw25Vt072UV6sYuya6UsW3lDe7B-6oh7UgAwgoAQvppTy2IuGS1gtJggd8oe28wpo4Rj94BGH3D7jqpvH7cpTpt-Bo6Rg2&amp;t=55b8edd0" type="text/javascript"></script><script type="text/javascript">PioWeb.BrName="WebKit";PioWeb.BrVers=120;PioWeb.NullGifSrc="/SVTemplate/img/_blank.gif";PioWeb.setPagePathProps("/","./");PioWeb.Lang="he";</script><meta content="IE=Edge" http-equiv="x-ua-compatible"/><meta charset="utf-8"/><meta content="initial-scale=1, minimum-scale=1, width=device-width, initial-scale=1.0" name="viewport"/><title>ההתאחדות לכדורגל בישראל - כל משחקי קבוצה</title><meta content="כל משחקי קבוצה" name="description"/><meta content="כל משחקי קבוצה" name="keywords"/><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TBQT2M54QM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TBQT2M54QM');
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 717753229 -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TBQT2M54QM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TBQT2M54QM');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=DC-13003082"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'DC-13003082');
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '204890770175212'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" src="https://www.facebook.com/tr?id=204890770175212&amp;ev=PageView
+&amp;noscript=1" width="1"/>
+</noscript>
+<!-- End Facebook Pixel Code --><link href="/SVTemplate/css/PioCssResource.css?d=5D24F8FC96455D29DB8D43F6A025BD96E183AE6E70D118647ADF95F0BF119988445DD5EB1DF4ACBCC9F5D67F3A1F3FE996D599612E6239B9670F2551085EB0126A9CB111A0526D658D1D22C53FDFDB616BAFF9D4417477488E5C6A64287771574B7D1C64FF0869D37974F98DBD30741D5A7DF0A32DA8BCD236C868FCB78CDAA35E8FE5FB2FF515347ED3E0436AA17B7B" rel="stylesheet" type="text/css"/>
+<link href="/SVTemplate/css/PioCssResource.css?d=F05B0117D478471B76E5E68BF75D59A3027C1A4D778DA8373F48C8E5001EA2EFB3D917C754C7D88B14EC07FFFEEF9242092CFE87DD10EF4DA3450F497C9ADA0477D5B35445BF68BF33228F8635FF59FD252CB31560047146237718C57941D49EC777ECE12212C6D53B6FC05641B56560990D8F85B59491C658BD98CE67F69D4EE13527A6707C5E5918EE425F579915FF266A6EAB4460269317FC5A4808E94942" rel="stylesheet" type="text/css"/>
+<script crossorigin="" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link href="SVTemplate/css/prod.min.css?v=2.0.5.13" rel="stylesheet" type="text/css"/>
+<meta content="ההתאחדות לכדורגל בישראל - כל משחקי קבוצה" property="og:title"/></head>
+<body class="site rtl br-not-mobile br-not-IE br-WebKit inner-page listmode" dir="rtl" style="">
+<!-- Start of Zoom Analytics Code -->
+<script type="text/javascript">
+var _zaVerSnippet=5,_zaq=_zaq||[]; 
+(function() {
+  var w=window,d=document;w.__za_api=function(a){_zaq.push(a);if(typeof __ZA!='undefined'&&typeof __ZA.sendActions!='undefined')__ZA.sendActions(a);};
+  var e=d.createElement('script');e.type='text/javascript';e.async=true;e.src=('https:'==d.location.protocol?'https://d2xerlamkztbb1.cloudfront.net/':'http://wcdn.zoomanalytics.co/')+'19762575-88f6/5/widget.js';
+  var ssc=d.getElementsByTagName('script')[0];ssc.parentNode.insertBefore(e,ssc);
+})();
+</script>
+<!-- End of Zoom Analytics Code -->
+<script type="text/javascript">
+gtag('event', 'conversion', {
+    'allow_custom_scripts': true,
+    'send_to': 'DC-13003082/footb0/footb0+standard'
+  });
+</script>
+<noscript>
+<img alt="" height="1" src="https://ad.doubleclick.net/ddm/activity/src=13003082;type=footb0;cat=footb0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=1?" width="1"/>
+</noscript><form action="/team-details/team-games/?team_id=2735&amp;season_id=25" id="ctl00" method="post">
+<div class="aspNetHidden">
+<input id="__EVENTTARGET" name="__EVENTTARGET" type="hidden" value=""/>
+<input id="__EVENTARGUMENT" name="__EVENTARGUMENT" type="hidden" value=""/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="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"/>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl00'];
+if (!theForm) {
+    theForm = document.ctl00;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+<script src="https://ajax.aspnetcdn.com/ajax/4.6/1/WebForms.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+window.WebForm_PostBackOptions||document.write('<script type="text/javascript" src="/WebResource.axd?d=MvbJBxlxLKvSs6fN5ye1Bsc_cvZTbZdJL2ZDup67X2Nig25tY158SCNy2ksu-oXznxYiL8TF5ApH22E6xv2NsnkNU8pWjtpu8axB7wPli941&amp;t=638286173964787378"><\/script>');//]]>
+</script>
+<script src="https://ajax.aspnetcdn.com/ajax/4.6/1/MicrosoftAjax.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys._Application && Sys.Observer)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=RqyZDuido8mSMXc9QM3kJ41n9mrHPtHW30PDKeWSTCzxPDiMpbMiVZ9co_2OTnrePqDb5GmEBIgrqp98WbrMuv0sOAntGSyKlUGpTqZYPzwyMvHG2tQ1J1rcW99GmUf1HlScNJ6mu7A3NuGuZ6TIU61z_QroY1o4u2OZflv6NfQ1&t=13798092"><\/script>');//]]>
+</script>
+<script src="https://ajax.aspnetcdn.com/ajax/4.6/1/MicrosoftAjaxWebForms.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys.WebForms)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=ionVoenQ2UMi2RWanUKWN5-pgWbK7Om4pu-RA38vNB5ier0uLozI6124RVhfJQV4iGY8f5jKjiuopHRK9JyO5_wKrIG0S1W2HNBCIeLE87ZeqNH85MVRQL-rB_WjsJDj2ZpNEYsFJXvi1oLQ6--G1MxX37WeOXM5f-NUgT86Nc6smGh4hlgrmcC6l7Buo2ri0&t=13798092"><\/script>');//]]>
+</script>
+<div class="aspNetHidden">
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="CA0B0334"/>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$AjaxScriptManager', 'ctl00', [], [], [], 120, 'ctl00$ctl00');
+//]]>
+</script>
+<script type="text/javascript">
+            var VERSION_LABEL = "2.0.5.13";
+            var VERSION_DEPLOYMENT_DATE = "2024-06-10";
+            var APP_LOAD_DATETIME = "20/05/2026 12:24:41";
+            var SITE_URL = "https://www.football.org.il/";var QUERY_NATIONAL_CUP_ID = "national_cup_id";var QUERY_SEASON_ID = "season_id";var LBL_MORE_STATISTICS = "עוד נתונים סטטיסטיים";var LBL_MORE_STATISTICS_B = "פחות נתונים סטטיסטיים";var LBL_LEAGUE_ROUND = "מחזור";var ALIVE_DATA_REFRESH_IN_MIN = 2;
+
+            var sliderNextLabel = 'סלייד הבא';
+            var sliderPrevLabel = 'סלייד קודם';
+            var closePopup = 'סגור פופאפ';
+        </script>
+<section class="private-zone">
+<header class="page-header">
+<nav class="accessibility_menu">
+<h2 class="sr-only">מעקף בלוקים</h2>
+<ul>
+<li><a class="skip" href="#access-content" title="דלג לתוכן העמוד">דלג לתוכן העמוד</a></li>
+<li><a class="skip" href="#access-main-menu" title="עבור לתפריט ראשי">עבור לתפריט ראשי</a></li>
+<li><a class="skip" href="https://www.football.org.il/" title="עבור לדף הבית">עבור לדף הבית</a></li>
+</ul>
+</nav>
+<div class="logo">
+<a href="https://www.football.org.il/">
+<img alt="לחץ כאן כדי לעבור לדף הבית של " src="files/logo.png" srcset="files/logo.png 0.5x"/>
+<div class="slogan">ההתאחדות<span> לכדורגל בישראל</span></div>
+</a>
+</div>
+<ul class="menu-left desktop_only">
+<li class="menu-left_icon-link"><a href="https://ref.football.org.il/" rel="noopener noreferrer" target='_"blank"' title="פורטל שופטים"><img class="menu-icon" src="SVTemplate/img/private-zone/icons/whistle.svg"/><span>פורטל שופטים</span></a></li><li class="menu-left_icon-link"><a href="https://portal.football.org.il/Auth/IFALogin.aspx?Source=https%3a%2f%2fportal.football.org.il%2fdefault.aspx" rel="noopener noreferrer" target="_blank" title="פורטל ההתאחדות"><img class="menu-icon" src="SVTemplate/img/private-zone/icons/soccer-ball.svg"/><span>פורטל ההתאחדות</span></a></li>
+<li><a aria-label="Go to english site" href="https://www.football.org.il/en/"><span class="eng-icon">EN</span></a></li>
+<li>
+<div class="site-search">
+<a class="search-toggle" href="javascript:;" role="button"><i class="icon icon-magnifing_glass-01"></i><span class="sr-only">פתח רכיב חיפוש</span></a>
+<div aria-hidden="true" class="wrap">
+<label class="sr-only" for="headerSearch">חיפוש באתר</label>
+<input class="search" id="headerSearch" placeholder="חפש באתר" type="text"/>
+<a class="search-btn" href="javascript:;" role="button"><i class="icon icon-magnifing_glass-01"></i><span class="sr-only">חפש באתר</span></a>
+</div>
+</div>
+</li>
+</ul>
+<button class="fixed-menu-toggle mobile_only" id="menu-trigger" role="button" type="button"><span></span></button>
+<nav aria-hidden="false" class="main-menu main-nav main" id="access-main-menu">
+<ul class="level1 first-level-wrap">
+<li class="mobile_only search-block share-block">
+<div class="search_and_share">
+<div class="nd_share">
+<button aria-expanded="false" aria-haspopup="true" aria-label="לחץ כאן לפתיחת אפשרויות שיתוף" class="share_button" type="button"><span class="icon icon-share-01"></span></button>
+<div class="addthis_inline_share_toolbox"></div>
+</div>
+<div class="site-search">
+<input class="search" name="ctlMobileSearch" placeholder="חפש באתר" type="text"/>
+<a class="search-btn" href="javascript:;" role="button"><i class="icon icon-magnifing_glass-01"></i><span class="sr-only">פתח רכיב חיפוש</span></a>
+</div>
+</div>
+</li>
+<li class="first-level parent-node">
+<a aria-expanded="false" aria-level="1" class="parent-node" href="/association/aboutassociation/about/" target="_self" title="פריט תפריט ראשי לחץ לפתיחת תתי תפריט"><span>ההתאחדות</span></a>
+<div class="second-level sub-level scroll_zone" data-mcs-theme="dark-thin">
+<ul class="level2 second-level-list">
+<li class="parent-node focus">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/association/aboutassociation/about/" target="_self"><span>ההתאחדות לכדורגל</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/association/aboutassociation/about/" target="_self"><span>אודות ההתאחדות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/aboutassociation/chairman/" target="_self"><span>יו"ר הנהלת ההתאחדות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/aboutassociation/associationpresident/" target="_self"><span>מנכ"ל ההתאחדות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/aboutassociation/budgetsupervisionauthority/" target="_self"><span>הרשות לבקרת תקציבים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/aboutassociation/rules/" target="_self"><span>תקנונים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/aboutassociation/sdfds/" target="_self"><span>הוראות שעה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/aboutassociation/tenders/" target="_self"><span>מכרזים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/aboutassociation/intermediaries/" target="_self"><span>סוכני שחקנים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7BB695406D-0A4C-4B56-BE91-7DE89C081241%7D" target="_self"><span>פרסומים רשמיים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/aboutassociation/drushim/" target="_self"><span>דרושים</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/?catid=%7B0013597A-0108-429C-8CD8-B695705B9111%7D" target="_self"><span>איגוד השופטים</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7B0013597A-0108-429C-8CD8-B695705B9111%7D" target="_self"><span>איגוד השופטים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/referees/refereeassignment/" target="_self"><span>שיבוץ שופטים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7B38B0239E-DED9-4C6D-8001-7D7B68D5FEE4%7D" target="_self"><span>רשימת שופטים ומבקרים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="https://ref.football.org.il/" target="_blank"><span>פורטל השופטים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/referees/referee-courses/" target="_self"><span>קורס שופטים</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/association/lawsystem/aboutlawsystem/" target="_self"><span>המערכת המשפטית</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/association/lawsystem/aboutlawsystem/" target="_self"><span>אודות המערכת המשפטית</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/lawsystem/highcourtofjusticepresidency/" target="_self"><span>נשיאות בית הדין העליון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/lawsystem/highcourtofjustice/" target="_self"><span>בית הדין העליון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/lawsystem/diciplinelawcourt/" target="_self"><span>בית הדין המשמעתי</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/lawsystem/arbitrationinstitution/" target="_self"><span>המוסד לבוררות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/lawsystem/playerstatuscommittee/" target="_self"><span>המוסד למעמד השחקן</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/lawsystem/pardoncommittee/" target="_self"><span>ועדת החנינות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/lawsystem/lawconsultant/" target="_self"><span>יועץ משפטי</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/lawsystem/ifaprosecute/" target="_self"><span>תובע ההתאחדות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7BEAF203A0-F83E-4831-8C1E-7C73179FC260%7D" target="_self"><span>החלטות בית הדין המשמעתי</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7B15A4FF6D-D73D-41C2-8E8A-97D43A9249AE%7D" target="_self"><span>החלטות בית הדין העליון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7B415E1D14-3DE3-4E07-AA64-25A577E6EDF9%7D" target="_self"><span>דיונים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7BBF84D50E-B695-40BE-A52E-2A5E009B3951%7D" target="_self"><span>פסקי בוררות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7BC2778119-BD52-4B79-971C-D36F91750DB3%7D" target="_self"><span>החלטות המוסד למעמד השחקן</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/association/structure/structure/" target="_self"><span>מבנה ארגוני</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/association/structure/structure/" target="_self"><span>מבנה ארגוני</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/structure/associationmanagment/" target="_self"><span>הנהלת ההתאחדות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/structure/associationsecretariat/" target="_self"><span>מזכירות ההתאחדות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/structure/committees/" target="_self"><span>ועדות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="http://ifca.org.il/" target="_blank"><span>איגוד המאמנים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/structure/qualityassurance/" target="_self"><span>אבטחת איכות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/structure/researchunit/" target="_self"><span>יחידת מחקר</span></a></li>
+</ul></div>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/association/fields/" target="_self"><span>מגרשים</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/?catid=%7B48105550-5B23-4410-8D6F-BF60565ECBC2%7D" target="_self"><span>חוקת המשחק</span></a>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/association/clubslicensing/aboutclubslicensing/" target="_self"><span>רישוי מועדונים</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/association/clubslicensing/aboutclubslicensing/" target="_self"><span>אודות רישוי מועדונים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7B8F234660-D1C3-429B-9DE1-B66376F9731D%7D" target="_self"><span>ועדת רישוי מועדונים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/clubslicensing/files/" target="_self"><span>קבצים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/clubslicensing/clubslicensingmanagement/" target="_self"><span>מנהלת הרישוי</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/association/clubslicensing/objectioncommission/" target="_self"><span>ועדת ערעורים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7B991E20B7-AECA-42F2-A139-D0DFDF0DC63B%7D" target="_self"><span>מבנה מערכת רישוי</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7B55D979DD-6250-42CB-82C7-69B29CBB8E7E%7D" target="_self"><span>מבנה מערכת רישוי מועדונים במסגרת ההתאחדות</span></a></li>
+</ul></div>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/association/social/" target="_self"><span>אחריות חברתית</span></a>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/forms/" target="_self"><span>טפסים</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7B37C25871-7CF1-4EE8-9222-F3E126F3E721%7D" target="_self"><span>ליגות מקצועניות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7B93D4B88A-D01C-4EE1-9EDB-1478C43196C0%7D" target="_self"><span>ליגות חובבניות</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7B33F8FE4D-3687-43F3-BB8C-AC58F062B9A4%7D" target="_self"><span>ליגות נוער</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7B7FBC87B6-5CD7-4B31-8912-4483B9628CDB%7D" target="_self"><span>הסכמים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/?catid=%7BD17304D1-2299-419C-B246-90DBAACB1113%7D" target="_self"><span>דוברות</span></a></li>
+</ul></div>
+</li>
+</ul></div>
+</li>
+<li class="first-level parent-node">
+<a aria-expanded="false" aria-level="1" class="parent-node" href="/national-team/?national_team_id=3" target="_self" title="פריט תפריט ראשי לחץ לפתיחת תתי תפריט"><span>נבחרות</span></a>
+<div class="second-level sub-level scroll_zone" data-mcs-theme="dark-thin">
+<ul class="level2 second-level-list">
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=3" target="_self"><span>נבחרת לאומית גברים</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=377" target="_self"><span>נבחרת לאומית נשים</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1909" target="_self"><span>נבחרת ישראל - עד גיל 21</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1783" target="_self"><span>נבחרת ישראל, עד גיל 20, גברים</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1919" target="_self"><span>נבחרת ישראל - נוער עד גיל 19 </span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1923" target="_self"><span>נבחרת ישראל - נערות עד גיל 19 </span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1920" target="_self"><span>נבחרת ישראל - נוער עד גיל 18 </span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1921" target="_self"><span>נבחרת ישראל - נערים עד גיל 17 </span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1924" target="_self"><span>נבחרת ישראל - נערות עד גיל 17 </span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1922" target="_self"><span>נבחרת ישראל - נערים עד גיל 16 </span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1925" target="_self"><span>נבחרת ישראל - נערות עד גיל 16</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=749" target="_self"><span>נבחרת כדורגל באולמות</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1863" target="_self"><span>הנבחרת האולימפית עד גיל 23 לאולימפיאדת פריז 2024</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1942" target="_self"><span>נבחרת ישראל - נערים עד גיל 15</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-team/?national_team_id=1943" target="_self"><span>נבחרת ישראל, נערות עד גיל 15, נשים</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/?catid=%7BC3C6E518-CF7E-4B07-BB5D-3E94E8D56092%7D" target="_self"><span>בית הנבחרות</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/?catid=%7B27D0D878-BC66-4DA6-BE33-E2A359E1ACAF%7D" target="_self"><span>צוות מקצועי - נבחרות צעירות</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/?catid=%7B3931F374-04F8-4AEB-A6CD-AB16F7EA67AE%7D" target="_self"><span>ארכיון נבחרות</span></a>
+</li>
+</ul></div>
+</li>
+<li class="first-level">
+<a aria-level="1" class="" href="/clubs/" target="_self" title=""><span>מועדונים</span></a>
+</li>
+<li class="first-level parent-node">
+<a aria-expanded="false" aria-level="1" class="parent-node" href="/leagues/league/?league_id=40&amp;season_id=26" target="_self" title="פריט תפריט ראשי לחץ לפתיחת תתי תפריט"><span>ליגות</span></a>
+<div class="second-level sub-level scroll_zone" data-mcs-theme="dark-thin">
+<ul class="level2 second-level-list">
+<li class="parent-node focus">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>בוגרים</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=40&amp;season_id=27" target="_self"><span>ליגת WINNER</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=45&amp;season_id=27" target="_self"><span>ליגה לאומית</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=62&amp;season_id=27" target="_self"><span>ליגה א' דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=61&amp;season_id=27" target="_self"><span>ליגה א' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=73&amp;season_id=27" target="_self"><span>ליגה ב' דרום א'</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=74&amp;season_id=27" target="_self"><span>ליגה ב' דרום ב'</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=71&amp;season_id=27" target="_self"><span>ליגה ב' צפון א'</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=72&amp;season_id=27" target="_self"><span>ליגה ב' צפון ב'</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=81&amp;season_id=27" target="_self"><span>ליגה ג' גליל עליון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=729&amp;season_id=27" target="_self"><span>ליגה ג' גליל תחתון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=86&amp;season_id=27" target="_self"><span>ליגה ג' דן</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=684&amp;season_id=27" target="_self"><span>ליגה ג' דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=83&amp;season_id=27" target="_self"><span>ליגה ג' יזרעאל</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=854&amp;season_id=27" target="_self"><span>ליגה ג' מפרץ</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=89&amp;season_id=27" target="_self"><span>ליגה ג' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=85&amp;season_id=27" target="_self"><span>ליגה ג' שומרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=88&amp;season_id=27" target="_self"><span>ליגה ג' תל אביב</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=636&amp;season_id=27" target="_self"><span>ליגת כדורגל באולמות הראשונה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=772&amp;season_id=27" target="_self"><span>ליגת כדורגל באולמות השנייה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=781&amp;season_id=27" target="_self"><span>ליגת ותיקים</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>נשים</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=637&amp;season_id=27" target="_self"><span>ליגת על לנשים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=639&amp;season_id=27" target="_self"><span>ליגה לאומית נשים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=741&amp;season_id=27" target="_self"><span>ליגה ארצית נשים</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=654&amp;season_id=27" target="_self"><span>ליגת נערות על </span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=651&amp;season_id=27" target="_self"><span>ליגת נערות דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=641&amp;season_id=27" target="_self"><span>ליגת נערות צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=808&amp;season_id=27" target="_self"><span>ליגת נערות א' דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=860&amp;season_id=27" target="_self"><span>ליגת נערות א' מפרץ</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=823&amp;season_id=27" target="_self"><span>ליגת נערות א' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=809&amp;season_id=27" target="_self"><span>ליגת נערות א' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=859&amp;season_id=27" target="_self"><span>ליגת נערות א' שרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=705&amp;season_id=27" target="_self"><span>ליגת ילדות א' דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=815&amp;season_id=27" target="_self"><span>ליגת ילדות א' מפרץ</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=749&amp;season_id=27" target="_self"><span>ליגת ילדות א' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=717&amp;season_id=27" target="_self"><span>ליגת ילדות א' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=900&amp;season_id=27" target="_self"><span>ליגת ילדות א' צפון 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=810&amp;season_id=27" target="_self"><span>ליגת ילדות א' שרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=901&amp;season_id=27" target="_self"><span>ליגת ילדות ב' דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=903&amp;season_id=27" target="_self"><span>ליגת ילדות ב' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=902&amp;season_id=27" target="_self"><span>ליגת ילדות ב' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=803&amp;season_id=27" target="_self"><span>ליגת טרומיות דרום</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>נוער</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=101&amp;season_id=27" target="_self"><span>ליגת העל לנוער</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=103&amp;season_id=27" target="_self"><span>ליגה לאומית לנוער דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=102&amp;season_id=27" target="_self"><span>ליגה לאומית לנוער צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=105&amp;season_id=27" target="_self"><span>ליגה ארצית לנוער דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=104&amp;season_id=27" target="_self"><span>ליגה ארצית לנוער צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=920&amp;season_id=27" target="_self"><span>ליגת נוער יזרעאל/שרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=787&amp;season_id=27" target="_self"><span>ליגת נוער מפרץ</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=666&amp;season_id=27" target="_self"><span>ליגת נוער מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=110&amp;season_id=27" target="_self"><span>ליגת נוער צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=115&amp;season_id=27" target="_self"><span>ליגת נוער שפלה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=923&amp;season_id=27" target="_self"><span>ליגת אולמות לנוער </span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>נערים א</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=726&amp;season_id=27" target="_self"><span>ליגת נערים א' על</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=121&amp;season_id=27" target="_self"><span>ליגת נערים א' ארצית דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=120&amp;season_id=27" target="_self"><span>ליגת נערים א' ארצית צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=646&amp;season_id=27" target="_self"><span>ליגת נערים א' דן</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=755&amp;season_id=27" target="_self"><span>ליגת נערים א' יזרעאל</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=123&amp;season_id=27" target="_self"><span>ליגת נערים א' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=122&amp;season_id=27" target="_self"><span>ליגת נערים א' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=665&amp;season_id=27" target="_self"><span>ליגת נערים א' שפלה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=664&amp;season_id=27" target="_self"><span>ליגת נערים א' שרון</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>נערים ב</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=773&amp;season_id=27" target="_self"><span>ליגת נערים ב' על</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=719&amp;season_id=27" target="_self"><span>ליגת נערים ב' ארצית דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=720&amp;season_id=27" target="_self"><span>ליגת נערים ב' ארצית צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=135&amp;season_id=27" target="_self"><span>ליגת נערים ב' דן</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=139&amp;season_id=27" target="_self"><span>ליגת נערים ב' דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=706&amp;season_id=27" target="_self"><span>ליגת נערים ב' יזרעאל</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=131&amp;season_id=27" target="_self"><span>ליגת נערים ב' מפרץ</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=137&amp;season_id=27" target="_self"><span>ליגת נערים ב' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=130&amp;season_id=27" target="_self"><span>ליגת נערים ב' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=658&amp;season_id=27" target="_self"><span>ליגת נערים ב' שפלה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=134&amp;season_id=27" target="_self"><span>ליגת נערים ב' שרון</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>נערים ג</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=824&amp;season_id=27" target="_self"><span>נערים ג' על</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=845&amp;season_id=27" target="_self"><span>ליגת נערים ג' ארצית דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=826&amp;season_id=27" target="_self"><span>ליגת נערים ג' ארצית צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=736&amp;season_id=27" target="_self"><span>ליגת נערים ג' דן </span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=663&amp;season_id=27" target="_self"><span>ליגת נערים ג' דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=758&amp;season_id=27" target="_self"><span>ליגת נערים ג' יזרעאל</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=759&amp;season_id=27" target="_self"><span>ליגת נערים ג' מפרץ </span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=146&amp;season_id=27" target="_self"><span>ליגת נערים ג' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=816&amp;season_id=27" target="_self"><span>ליגת נערים ג' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=707&amp;season_id=27" target="_self"><span>ליגת נערים ג' שפלה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=144&amp;season_id=27" target="_self"><span>ליגת נערים ג' שרון</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>ילדים א</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=871&amp;season_id=27" target="_self"><span>ליגת ילדים א' גליל עליון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=155&amp;season_id=27" target="_self"><span>ליגת ילדים א' דן</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=734&amp;season_id=27" target="_self"><span>ליגת ילדים א' דן 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=870&amp;season_id=27" target="_self"><span>ליגת ילדים א' דן 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=648&amp;season_id=27" target="_self"><span>ליגת ילדים א' דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=865&amp;season_id=27" target="_self"><span>ליגת ילדים א' דרום 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=764&amp;season_id=27" target="_self"><span>ליגת ילדים א' חוף</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=875&amp;season_id=27" target="_self"><span>ליגת ילדים א' חוף 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=876&amp;season_id=27" target="_self"><span>ליגת ילדים א' חוף 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=662&amp;season_id=27" target="_self"><span>ליגת ילדים א' יזרעאל</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=862&amp;season_id=27" target="_self"><span>ליגת ילדים א' מזרח</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=152&amp;season_id=27" target="_self"><span>ליגת ילדים א' מפרץ</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=156&amp;season_id=27" target="_self"><span>ליגת ילדים א' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=788&amp;season_id=27" target="_self"><span>ליגת ילדים א' מרכז 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=150&amp;season_id=27" target="_self"><span>ליגת ילדים א' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=712&amp;season_id=27" target="_self"><span>ליגת ילדים א' צפון 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=872&amp;season_id=27" target="_self"><span>ליגת ילדים א' צפון 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=863&amp;season_id=27" target="_self"><span>ליגת ילדים א' צפון השרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=158&amp;season_id=27" target="_self"><span>ליגת ילדים א' שפלה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=154&amp;season_id=27" target="_self"><span>ליגת ילדים א' שרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=861&amp;season_id=27" target="_self"><span>ליגת ילדים א' שרון 1</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>ילדים ב</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=880&amp;season_id=27" target="_self"><span>ליגת ילדים ב' גליל תחתון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=739&amp;season_id=27" target="_self"><span>ליגת ילדים ב' דן</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=748&amp;season_id=27" target="_self"><span>ליגת ילדים ב' דן 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=689&amp;season_id=27" target="_self"><span>ליגת ילדים ב' דן 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=852&amp;season_id=27" target="_self"><span>ליגת ילדים ב' דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=868&amp;season_id=27" target="_self"><span>ליגת ילדים ב' דרום 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=804&amp;season_id=27" target="_self"><span>ליגת ילדים ב' חוף</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=881&amp;season_id=27" target="_self"><span>ליגת ילדים ב' חוף 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=882&amp;season_id=27" target="_self"><span>ליגת ילדים ב' חוף 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=897&amp;season_id=27" target="_self"><span>ליגת ילדים ב' חוף 3</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=161&amp;season_id=27" target="_self"><span>ליגת ילדים ב' מפרץ</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=165&amp;season_id=27" target="_self"><span>ליגת ילדים ב' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=792&amp;season_id=27" target="_self"><span>ליגת ילדים ב' מרכז 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=879&amp;season_id=27" target="_self"><span>ליגת ילדים ב' מרכז 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=160&amp;season_id=27" target="_self"><span>ליגת ילדים ב' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=747&amp;season_id=27" target="_self"><span>ליגת ילדים ב' צפון 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=767&amp;season_id=27" target="_self"><span>ליגת ילדים ב' צפון 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=878&amp;season_id=27" target="_self"><span>ליגת ילדים ב' צפון השרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=167&amp;season_id=27" target="_self"><span>ליגת ילדים ב' שפלה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=163&amp;season_id=27" target="_self"><span>ליגת ילדים ב' שרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=877&amp;season_id=27" target="_self"><span>ליגת ילדים ב' שרון 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=765&amp;season_id=27" target="_self"><span>ליגת ילדים ב' שרון 2</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>ילדים ג</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=886&amp;season_id=27" target="_self"><span>ליגת ילדים ג' גליל עליון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=887&amp;season_id=27" target="_self"><span>ליגת ילדים ג' גליל תחתון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=175&amp;season_id=27" target="_self"><span>ליגת ילדים ג' דן</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=713&amp;season_id=27" target="_self"><span>ליגת ילדים ג' דן 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=769&amp;season_id=27" target="_self"><span>ליגת ילדים ג' דן 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=890&amp;season_id=27" target="_self"><span>ליגת ילדים ג' דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=888&amp;season_id=27" target="_self"><span>ליגת ילדים ג' דרום 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=770&amp;season_id=27" target="_self"><span>ליגת ילדים ג' חוף</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=883&amp;season_id=27" target="_self"><span>ליגת ילדים ג' חוף 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=884&amp;season_id=27" target="_self"><span>ליגת ילדים ג' חוף 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=794&amp;season_id=27" target="_self"><span>ליגת ילדים ג' יזרעאל</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=738&amp;season_id=27" target="_self"><span>ליגת ילדים ג' מפרץ 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=173&amp;season_id=27" target="_self"><span>ליגת ילדים ג' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=793&amp;season_id=27" target="_self"><span>ליגת ילדים ג' מרכז 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=744&amp;season_id=27" target="_self"><span>ליגת ילדים ג' מרכז 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=170&amp;season_id=27" target="_self"><span>ליגת ילדים ג' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=172&amp;season_id=27" target="_self"><span>ליגת ילדים ג' צפון 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=885&amp;season_id=27" target="_self"><span>ליגת ילדים ג' צפון 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=891&amp;season_id=27" target="_self"><span>ליגת ילדים ג' צפון השרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=174&amp;season_id=27" target="_self"><span>ליגת ילדים ג' שפלה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=892&amp;season_id=27" target="_self"><span>ליגת ילדים ג' שפלה 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=661&amp;season_id=27" target="_self"><span>ליגת ילדים ג' שרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=780&amp;season_id=27" target="_self"><span>ליגת ילדים ג' שרון 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=750&amp;season_id=27" target="_self"><span>ליגת ילדים ג' שרון 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=649&amp;season_id=27" target="_self"><span>ליגת ילדים ג מפרץ</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>טרום ילדים א</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=908&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' גליל עליון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=182&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' דן</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=631&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' דן 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=737&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' דן 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=838&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' דרום</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=771&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' חוף</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=819&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' יזרעאל</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=180&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' מפרץ</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=710&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' מפרץ 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=183&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=801&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' מרכז 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=799&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' מרכז 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=840&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=800&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' צפון 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=904&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' צפון השרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=660&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' שומרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=839&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' שפלה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=181&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' שרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=806&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' שרון 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=752&amp;season_id=27" target="_self"><span>ליגת ילדים טרום א' שרון 2</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>טרום ילדים ב</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=640&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' דן</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=732&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' דן 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=912&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' חוף</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=913&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' חוף 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=843&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' יזרעאל</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=798&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' מפרץ</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=659&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=851&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' מרכז 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=657&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=844&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' צפון 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=921&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' צפון 2</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=922&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' צפון השרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=842&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' שפלה</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=186&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' שרון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=918&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב' שרון 1</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=722&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ב דן 1</span></a></li>
+</ul></div>
+</li>
+<li class="parent-node">
+<a aria-expanded="false" aria-level="2" class="parent-node" href="/leagues/games/game/?league_id=0&amp;season_id=27" target="_self"><span>טרום ילדים ג</span></a>
+<div class="third-level sub-level">
+<ul class="level3 third-level-list">
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=795&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ג' מרכז</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=652&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ג' צפון</span></a></li>
+<li class="parent-node">
+<a aria-level="3" href="/leagues/league/?league_id=916&amp;season_id=27" target="_self"><span>ליגת ילדים טרום ג' צפון 1</span></a></li>
+</ul></div>
+</li>
+</ul></div>
+</li>
+<li class="first-level parent-node">
+<a aria-expanded="false" aria-level="1" class="parent-node" href="/national-cup/?national_cup_id=618&amp;season_id=26" target="_self" title="פריט תפריט ראשי לחץ לפתיחת תתי תפריט"><span>ג. המדינה</span></a>
+<div class="second-level sub-level scroll_zone" data-mcs-theme="dark-thin">
+<ul class="level2 second-level-list">
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=618&amp;season_id=27" target="_self"><span>גביע המדינה ווינר</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=617&amp;season_id=27" target="_self"><span>גביע המדינה נשים</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=790&amp;season_id=27" target="_self"><span>גביע אתנה</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=586&amp;season_id=27" target="_self"><span>גביע לנוער ע"ש אבי רן ז"ל</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=692&amp;season_id=27" target="_self"><span>גביע נערות ע"ש צבי (וילי) וילינגר ז"ל</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=587&amp;season_id=27" target="_self"><span>גביע נערים א' ע"ש חיים הברפלד ז"ל</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=813&amp;season_id=27" target="_self"><span>גביע המדינה לנערות א' ע''ש מאי נעים ז''ל </span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=588&amp;season_id=27" target="_self"><span>גביע נערים ב' ע"ש ברוך מנדלבליט ז"ל</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=589&amp;season_id=27" target="_self"><span>גביע נערים ג ע"ש ז.קליאוט ז"ל</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=590&amp;season_id=27" target="_self"><span>גביע ילדים א' ע"ש דוד שוויצר ז"ל</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=718&amp;season_id=27" target="_self"><span>גביע המדינה לילדות א' ע"ש יהל שרעבי ז"ל</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=591&amp;season_id=27" target="_self"><span>גביע ילדים ב' ע"ש שמואל סוחר ז"ל</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=919&amp;season_id=27" target="_self"><span>גביע המדינה לילדות ב'</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=592&amp;season_id=27" target="_self"><span>גביע ילדים ג' ע"ש יעקב גרונדמן ז"ל</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=593&amp;season_id=27" target="_self"><span>גביע ילדים טרום א'</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=782&amp;season_id=27" target="_self"><span>גביע אזורים</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/national-cup/?national_cup_id=784&amp;season_id=27" target="_self"><span>גביע ותיקים</span></a>
+</li>
+</ul></div>
+</li>
+<li class="first-level parent-node">
+<a aria-expanded="false" aria-level="1" class="parent-node" href="http://football.org.il/totocup/priemerleague/?league_id=743&amp;season_id=26" target="_blank" title="פריט תפריט ראשי לחץ לפתיחת תתי תפריט"><span>ג. הטוטו</span></a>
+<div class="second-level sub-level scroll_zone" data-mcs-theme="dark-thin">
+<ul class="level2 second-level-list">
+<li class="">
+<a aria-level="2" class="" href="/totocup/priemerleague/?league_id=625&amp;season_id=27" target="_self"><span>גביע הטוטו ליגת WINNER</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/totocup/priemerleague/?league_id=630&amp;season_id=27" target="_self"><span>גביע הטוטו לאומית</span></a>
+</li>
+</ul></div>
+</li>
+<li class="first-level parent-node">
+<a aria-expanded="false" aria-level="1" class="parent-node" href="https://www.football.org.il/?itemid=%7BDD0F0859-3B95-4A1D-8F61-DB6C161A6C3A%7D" target="_blank" title="פריט תפריט ראשי לחץ לפתיחת תתי תפריט"><span>הדרכה</span></a>
+<div class="second-level sub-level scroll_zone" data-mcs-theme="dark-thin">
+<ul class="level2 second-level-list">
+<li class="">
+<a aria-level="2" class="" href="/?catid=%7BCD79BF18-4A3E-4C00-A8A4-0CFE3FF28379%7D" target="_self"><span>קורסי מאמנים</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/?catid=%7B0D8E8FF1-B5BE-4996-9192-F9A54C8D94F1%7D" target="_self"><span>כנסים והשתלמויות</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/?catid=%7BF9C3F34D-CFD9-462D-9386-9C103DE21BBC%7D" target="_self"><span>תוכן מקצועי</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="/?catid=%7BC536A25E-5BBA-4BCF-8F5B-6731347B0BCF%7D" target="_self"><span>הדרך הישראלית</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="https://www.football.org.il/magazine/?itemid=%7BBD81B94E-F5DB-49AC-B5AB-5EC876F3419D%7D" target="_blank"><span>כדורגל ילדים</span></a>
+</li>
+<li class="">
+<a aria-level="2" class="" href="https://www.football.org.il/magazine/?itemid=%7B86BA8265-9126-4173-BC87-8D097ED9C7E4%7D" target="_blank"><span>אמנת המאמנים</span></a>
+</li>
+</ul></div>
+</li>
+<li class="first-level">
+<a aria-level="1" class="" href="/association/aboutassociation/ifalive/" target="_self" title=""><span>תוצאות LIVE</span></a>
+</li>
+<li class="first-level">
+<a aria-level="1" class="" href="https://www.oref.org.il/12487-15896-he/Pakar.aspx" target="_blank" title=""><span>הנחיות פיקוד העורף</span></a>
+</li>
+<li class="first-level">
+<a aria-level="1" class="" href="/gameslive/" target="_self" title=""><span>משחקים בלייב</span></a>
+</li>
+<li class="first-level">
+<a aria-level="1" class="" href="https://ext.football.org.il/IFAReport/" target="_blank" title=""><span>מערכת דיווח אנונימית</span></a>
+</li>
+<li class="mobile_only hebrew-only blue-item"><a href="https://ref.football.org.il/" target="_blank" title="פורטל שופטים">
+<img alt="" class="menu-icon" src="SVTemplate/img/private-zone/icons/whistle.svg"/><span>פורטל שופטים</span></a></li>
+<li class="mobile_only hebrew-only blue-item"><a href="https://portal.football.org.il/Auth/IFALogin.aspx?Source=https%3a%2f%2fportal.football.org.il%2fdefault.aspx" target="_blank" title="פורטל ההתאחדות">
+<img alt="" class="menu-icon" src="SVTemplate/img/private-zone/icons/soccer-ball.svg"/><span><span>פורטל ההתאחדות</span></span></a></li>
+<li class="mobile_only blue-item"><a aria-label="Go to english site" href="https://www.football.org.il/en/"><span class="eng-icon">English</span></a></li>
+<li class="first-level logout">
+</li>
+</ul>
+</nav>
+</header>
+</section>
+<section class="page-content side-menu-closed main-content-pusher" ng-app="ifaApp">
+<section class="main-container no-banner-bg" id="access-content" role="main">
+<div class="page_banner no-banner">
+<h1 class="container clearfix"><span class="big">כל משחקי קבוצה</span></h1>
+</div>
+<div class="side-menu-wrapper">
+<aside class="side-menu-container closed" id="access-side-menu">
+<button class="fixed-menu-toggle mobile_only" id="menu-trigger" role="button" type="button"><span></span></button>
+<nav aria-hidden="true" class="main-menu main-nav side" id="access-main-menu">
+<ul class="level1 first-level-wrap">
+<li class="mobile_only search-block share-block">
+<div class="search_and_share">
+<div class="nd_share">
+<button aria-expanded="false" aria-haspopup="true" aria-label="לחץ כאן לפתיחת אפשרויות שיתוף" class="share_button" type="button"><span class="icon icon-share-01"></span></button>
+<div class="addthis_inline_share_toolbox"></div>
+</div>
+<div class="site-search">
+<input class="search" name="ctlMobileSearch" placeholder="חפש באתר" type="text"/>
+<a class="search-btn" href="javascript:;" role="button"><i class="icon icon-magnifing_glass-01"></i><span class="sr-only">פתח רכיב חיפוש</span></a>
+</div>
+</div>
+</li>
+<li class="first-level">
+<a aria-level="1" class="" href="/clubs/" target="_self" title=""><span>מועדונים</span></a>
+</li>
+<li class="mobile_only hebrew-only blue-item"><a href="https://ref.football.org.il/" target="_blank" title="פורטל שופטים">
+<img alt="" class="menu-icon" src="SVTemplate/img/private-zone/icons/whistle.svg"/><span>פורטל שופטים</span></a></li>
+<li class="mobile_only hebrew-only blue-item"><a href="https://portal.football.org.il/Auth/IFALogin.aspx?Source=https%3a%2f%2fportal.football.org.il%2fdefault.aspx" target="_blank" title="פורטל ההתאחדות">
+<img alt="" class="menu-icon" src="SVTemplate/img/private-zone/icons/soccer-ball.svg"/><span><span>פורטל ההתאחדות</span></span></a></li>
+<li class="mobile_only blue-item"><a aria-label="Go to english site" href="https://www.football.org.il/en/"><span class="eng-icon">English</span></a></li>
+<li class="first-level logout">
+</li>
+</ul>
+</nav>
+<button aria-expanded="false" aria-haspopup="true" class="side-menu-toggle" type="button">
+<i></i>
+<span class="sr-only">
+<span class="close-menu">לחץ לסגירת תפריט צד</span>
+<span class="open-menu">לחץ לפתיחת תפריט צד</span>
+</span></button>
+</aside>
+</div>
+<section class="table_data_zone games_table container">
+<div class="container">
+<a class="print" href="javascript:window.print()"><img alt="הדפסה" class="svg-img" src="SVTemplate/img/print.svg"/><span class="sr-only">הדפסה ליגה</span></a>
+<h2 class="white_title">רשימת המשחקים</h2>
+<div class="">
+<div class="table_view full_view">
+<div aria-hidden="true" class="table_header_row" role="presentation">
+<div class="table_col align_content">תאריך</div>
+<div class="table_col align_content">משחק</div>
+<div class="table_col align_content new-desktop-only">אצטדיון</div>
+<div class="table_col align_content">שעה</div>
+<div class="table_col align_content">תוצאה</div>
+</div>
+<div class="table_row_group">
+<a class="table_row link_url" href="/leagues/games/game/?game_id=884884" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>27/09/2023</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>עירוני ראש העין - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>פתח תקוה מושבה צפוני חדש</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>21:30</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>3-4</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=876200" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>03/10/2023</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>הפועל אורנית ע. עידו אגוזי - שמשון בני טייבה</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>אורנית</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>16:00</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>2-4</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=876210" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>30/12/2023</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>מכבי השרון נתניה ויקטור עטיה - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>נתניה שפירא</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>20:45</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>0-4</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=949467" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>05/01/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>הפועל אורנית ע. עידו אגוזי - בני טירה</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>אורנית</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>11:45</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>1-1</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=876229" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>12/01/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>בית"ר טוברוק - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>נתניה טוברוק</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>13:00</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>2-0</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=950429" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>19/01/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>הפועל אורנית ע. עידו אגוזי - מ.כ. כפר קאסם ניבראס</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>אורנית</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>12:00</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>5-1</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=950729" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>24/01/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>בית"ר כ"ס שלומי - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>כפר סבא קפלן</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>20:33</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>0-4</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=950928" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>31/01/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>מכבי ע. כפר יונה - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>כפר יונה</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>20:30</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>0-5</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=951597" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>11/02/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>בית"ר מ.א. מטה בנימין - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>פתח תקוה מושבה צפוני חדש</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>21:30</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>5-0</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=951843" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>16/02/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>הפועל אורנית ע. עידו אגוזי - מ.כ. בני זמר</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>אורנית</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>12:00</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>1-2</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=876285" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>20/02/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>הפועל אורנית ע. עידו אגוזי - הפועל פרדסייה נועם</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>אורנית</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>15:00</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>3-3</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=876287" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>24/02/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>מ.כ. בני רעננה עוזי כהן - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>רעננה פארק צפוני סינטטי</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>19:30</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>0-2</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=876302" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>01/03/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>הפועל אורנית ע. עידו אגוזי - מ.כ.ע אריאל</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>אורנית</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>12:00</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>2-0</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=880975" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>08/03/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>מ.ס. גבעת שמואל - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>תל אביב וולפסון 2</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>10:45</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>2-3</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=953069" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>18/03/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>בני ג'לג'וליה - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>פתח תקוה מושבה דרומי</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>21:30</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>0-3</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=876325" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>22/03/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>מ.כ. כפר סבא - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>כפר סבא אצטדיון לויטה</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>14:15</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>0-2</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=953569" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>27/03/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>מ.כ.ע אריאל - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>אריאל</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>20:15</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>3-1</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=953742" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>05/04/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>הפועל אורנית ע. עידו אגוזי - מכבי ע. כפר יונה</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>אורנית</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>12:00</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>1-2</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=953949" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>14/04/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>עירוני ראש העין - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>פתח תקוה מושבה דרומי</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>20:15</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>1-1</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=954004" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>19/04/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>הפועל אורנית ע. עידו אגוזי - בני ג'לג'וליה</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>אורנית</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>11:45</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>1-3</div>
+</a>
+<a class="table_row link_url" href="/leagues/games/game/?game_id=945742" title="קישור לעמוד משחק">
+<div class="table_col align_content"><span class="sr-only">תאריך</span>27/04/2024</div>
+<div class="table_col align_content"><span class="sr-only">משחק</span>בני טירה - הפועל אורנית ע. עידו אגוזי</div>
+<div class="table_col align_content new-desktop-only"><span class="sr-only">אצטדיון</span>טירה</div>
+<div class="table_col align_content"><span class="sr-only">שעה</span>21:15</div>
+<div class="table_col align_content"><span class="sr-only">תוצאה</span>3-2</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="cookies-container-div">
+<div class="cookies-container" id="CloseCookies">
+<h2> עוגיות</h2>
+<div class="content">
+        לידיעתכם, באתר זה נעשה שימוש ב"קבצי עוגיות" (cookies) וכלים דומים אחרים על מנת לספק לכם חווית גלישה טובה יותר, 
+תוכן מותאם אישית וביצוע ניתוחים סטטיסטיים. למידע נוסף על אופן השימוש במידע, העברת המידע לצדדים שלישיים ושינוי הגדרות יש לעיין
+        <strong>
+<a href="https://www.football.org.il/securitypolicy/" target="_blank"> במדיניות הפרטיות
+    </a>.
+            </strong>
+</div>
+<div class="buttons">
+<button id="closeCookiesBtn" type="button">הבנתי</button>
+</div>
+</div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const banner = document.getElementById("CloseCookies");
+    const closeBtn = document.getElementById("closeCookiesBtn");
+    const hideBanner = document.cookie
+        .split("; ")
+        .find(row => row.startsWith("HideCookiesBanner="));
+
+    if (hideBanner && hideBanner.split("=")[1] === "true") {
+        banner.style.display = "none";
+    } else {
+        banner.style.display = "block";
+    }
+    closeBtn.addEventListener("click", function () {
+        banner.style.display = "none";
+        document.cookie = "HideCookiesBanner=true; path=/; max-age=" + (30 * 24 * 60 * 60);
+    });
+});
+</script>
+<footer class="page-footer" role="contentinfo">
+<div class="footer-container-full"><!--
+--><!--
+--><section class="useable-links"><h2>קישורים שימושיים</h2><ul><li><a href="/files/1974/תקנון גב כרטיס - 23.2.26.pdf"><figure><img alt="תקנון כרטיס – משחקים בניהול וארגון ההתאחדות" border="0" src="/files/Footer/arbitration.svg"/></figure><span>תקנון כרטיס – משחקים בניהול וארגון ההתאחדות</span></a></li><li><a href="/association/referees/refereeassignment/"><figure><img alt="שיבוצי שופטים" border="0" src="/files/Footer/whistel.svg"/></figure><span>שיבוצי שופטים</span></a></li><li><a href="/?catid=%7BEAF203A0-F83E-4831-8C1E-7C73179FC260%7D#{667CE1A4-D008-4158-8C4B-14B653A22B15}"><figure><img alt="החלטות בית הדין המשמעתי" border="0" src="/files/Footer/law.svg"/></figure><span>החלטות בית הדין המשמעתי</span></a></li><li><a href="/files/1974/נהלי נגישות - ההתאחדות לכדורגל.pdf"><figure><img alt="נהלי נגישות שירות - ההתאחדות לכדורגל" border="0" src="/files/Footer/registration.svg"/></figure><span>נהלי נגישות שירות - ההתאחדות לכדורגל</span></a></li><li><a href="/magazine/?subject=החלטות%20הנהלה&amp;from=01-04-2017&amp;to=&amp;text="><figure><img alt="החלטות הנהלה" border="0" src="/files/Footer/arbitration.svg"/></figure><span>החלטות הנהלה</span></a></li><li><a href="/?catid=%7BAF9F7A1D-0D47-4576-BB19-48DC877240CF%7D"><figure><img alt="טפסים" border="0" src="/files/Footer/regulations.svg"/></figure><span>טפסים</span></a></li><li><a href="/association/fields/"><figure><img alt="חיפוש מגרשים בארץ" border="0" src="/files/Footer/search_soccer_field-01.svg"/></figure><span>חיפוש מגרשים בארץ</span></a></li><li><a href="https://infocenters.co.il/ifa"><figure><img alt="ארכיון ההתאחדות" border="0" src="/files/Footer/library.svg"/></figure><span>ארכיון ההתאחדות</span></a></li><li><a href="/?catid=%7B415E1D14-3DE3-4E07-AA64-25A577E6EDF9%7D#{6C827D75-B1C8-48A6-B366-2478AF8E1A61}"><figure><img alt="סדר דיוני בית הדין" border="0" src="/files/Footer/order_court_hearings.svg"/></figure><span>סדר דיוני בית הדין</span></a></li><li><a href="https://www.football.org.il/magazine/?itemid=%7BDCB86211-698F-4C24-9A57-F178B5930087%7D"><figure><img alt="דוח הוועדה לבחינת מבנה מוסדות השיפוט" border="0" src="/files/Footer/meeting.svg"/></figure><span>דוח הוועדה לבחינת מבנה מוסדות השיפוט</span></a></li><li><a href="https://www.football.org.il/magazine/?itemid=%7B1C890353-60F8-4992-BD1A-3AC106BE50D1%7D"><figure><img alt="לוחות משחקי ליגות לעונת 2025.6" border="0" src="/files/Footer/registration.svg"/></figure><span>לוחות משחקי ליגות לעונת 2025.6</span></a></li><li><a href="https://www.football.org.il/magazine/?itemid=%7BF02CEB7C-98A8-4F4F-854E-636D645ECED2%7D"><figure><img alt='דו"חות כספיים - קבוצות ליגת העל והליגה הלאומית' border="0" src="/files/Footer/arbitration.svg"/></figure><span>דו"חות כספיים - קבוצות ליגת העל והליגה הלאומית</span></a></li><li><a href="https://www.football.org.il/magazine/?itemid=%7B9F29C70C-FB67-4F42-AB11-254ABF558805%7D"><figure><img alt="נוהל אביזרי עידוד" border="0" src="/files/Footer/arbitration.svg"/></figure><span>נוהל אביזרי עידוד</span></a></li><li><a href="https://www.football.org.il/?itemid=%7B7668CA21-5279-44A9-9321-422ABDC938FB%7D"><span>מעמד והעברות קטינים: דף מידע ותקנון</span></a></li></ul></section><!--
+--><section class="footer-slider"><h2 class="sr-only">רכיב פרסומי</h2><div class="flickitySlider footerSlider"><div class="slide"><a href="http://www.meyeden.co.il/"><figure><img alt="צמאים לניצחון? קחו לכם טיפה מהטבע להצטרפות" border="0" height="538" src="/files/Banners/70185_mey_eden_banner_c1_957x538_v1.jpg" width="957"/></figure></a></div><div class="slide"><a href="https://www.football-state.com"><figure><img alt="מדינת הכדורגל" border="0" height="832" src="/files/SiteCollectionImages/FTP/eitan/grassrots/big-logo-new.jpg" width="1508"/></figure></a></div><div class="slide"><a href="https://www.sheba.co.il/%D7%94%D7%9E%D7%9B%D7%95%D7%9F-%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%9C%D7%A8%D7%A4%D7%95%D7%90%D7%AA-%D7%A1%D7%A4%D7%95%D7%A8%D7%98-%D7%A9%D7%99%D7%91%D7%90"><figure><img alt="שיבא" border="0" height="538" src="/files/Banners/shiba/באנר.jpg" width="957"/></figure></a></div><div class="slide"><a href="https://ext.football.org.il/app/"><figure><img alt="אפליקציה" border="0" height="391" src="/files/aplikazia/app_banners_03_2.jpg" width="592"/></figure></a></div><div class="slide"><a href="https://ifa-shop.org.il/"><figure><img alt="חנות מוצרים" border="0" height="581" src="/files/shop/חנות.JPG" width="957"/></figure></a></div><div class="slide"><a href="https://ifaleagues.watch.pixellot.tv/"><figure><img alt="IFA TV" border="0" height="538" src="/files/eldan/2323.jpg" width="957"/></figure></a></div><div class="slide"><a href="https://reebok.co.il/password"><figure><img alt="ריבוק" border="0" height="538" src="/files/rebok/1.JPG" width="957"/></figure></a></div></div></section>
+</div>
+<section class="footer-brands"><ul><li><a href="https://www.gov.il/he/departments/ministry_of_tourism/govil-landing-page"><figure><img alt="משרד התיירות" border="0" height="69" src="/files/sponser/go israel.jpg" width="247"/></figure></a></li><li><a href="https://www.sheba.co.il/%D7%94%D7%9E%D7%9B%D7%95%D7%9F-%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%9C%D7%A8%D7%A4%D7%95%D7%90%D7%AA-%D7%A1%D7%A4%D7%95%D7%A8%D7%98-%D7%A9%D7%99%D7%91%D7%90"><figure><img alt="שיבא" border="0" height="46" src="/files/Banners/shiba/לוגו חדש_1.JPG" width="232"/></figure></a></li><li><a href="https://www.balr.com/"><figure><img alt="balr" border="0" height="40" src="/files/balr/1.JPG" width="100"/></figure></a></li><li><a href="https://www.winner.co.il/"><figure><img alt="ווינר" border="0" height="49" src="/files/TOTO_W101.jpg" width="175"/></figure></a></li><li><a href="https://auraisrael.co.il/"><figure><img alt="אאורה" border="0" height="284" src="/files/blue bg.jpg" width="284"/></figure></a></li><li><a href="https://reebok.co.il/password"><figure><img alt="ריבוק" border="0" height="85" src="/files/sponser/ריבוק.jpg" width="167"/></figure></a></li><li><a href="https://www.histadrut.org/"><figure><img alt="ההסתדרות הלאומית" border="0" height="85" src="/files/sponser/הסתדרות.jpg" width="300"/></figure></a></li><li><a href="https://www.fattal.co.il/?utm_source=google-ads&amp;utm_campaign=GSBEfattal&amp;utm_agid=2451038233&amp;utm_term=%D7%A4%D7%AA%D7%90%D7%9C&amp;creative=726965907998&amp;device=c&amp;placement=&amp;gad_source=1&amp;gad_campaignid=59941993&amp;gbraid=0AAAAAD-P_-e0Hrb413rOg1ldclVllkTPW&amp;gclid=Cj"><figure><img alt="פאתל" border="0" height="69" src="/files/sponser/פאתל.jpg" width="167"/></figure></a></li><li><a href="https://www.leaan.co.il/"><figure><img alt="לאן" border="0" height="83" src="/files/SiteCollectionImages/FTP/eitan/logo atar/לאן.JPG" width="161"/></figure></a></li><li><a href="http://www.meyeden.co.il/"><figure><img alt="מי עדן" border="0" height="106" src="/files/SiteCollectionImages/FTP/eitan/logo atar/מי עדן.JPG" width="175"/></figure></a></li><li><a href="https://www.eldan.co.il/"><figure><img alt="אלדן" border="0" height="140" src="/files/BTL_148611_Hitachdut_Kaduredel_D2.png" width="200"/></figure></a></li><li><a href="https://www.deasy.co.il/"><figure><img alt="דיזנהאוס" border="0" height="106" src="/files/Banners/small banner dizinhouse.jpg" width="220"/></figure></a></li><li><a href="https://megasport.co.il/"><figure><img alt="מגה ספורט" border="0" height="39" src="/files/SiteCollectionImages/FTP/eitan/logo atar/מג.jpg" width="167"/></figure></a></li><li><a href="https://www.arkia.co.il/?a=555&amp;utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=21524820630&amp;utm_adgroup=165840239495&amp;utm_term=%D7%90%D7%A8%D7%A7%D7%99%D7%A2&amp;utm_device=c&amp;utm_network=g&amp;utm_content=707849892150&amp;utm_placement=&amp;utm_targetid=aud-1000523486302:kwd"><figure><img alt="ארקיע" border="0" height="125" src="/files/ארקיע.png" width="250"/></figure></a></li><li><a href="https://www.shlomo.co.il/"><figure><img alt="שלמה" border="0" height="140" src="/files/Banners/small banner shlomo.jpg" width="250"/></figure></a></li></ul></section>
+<section class="footer-bottom">
+<div class="container">
+<nav class="footer-menu" role="navigation">
+<h2>תפריט ניווט</h2>
+<ul>
+<li class="first-level">
+<a href="/association/aboutassociation/about/" target="_self" title="ההתאחדות"><!--
+-->ההתאחדות</a>
+</li>
+<li class="first-level">
+<a href="/national-team/?national_team_id=3" target="_self" title="נבחרות"><!--
+-->נבחרות</a>
+</li>
+<li class="first-level">
+<a href="/clubs/" target="_self" title="מועדונים"><!--
+-->מועדונים</a>
+</li>
+<li class="first-level">
+<a href="/?catid=%7B8557B417-7FEC-4B0D-990F-513F2A1CAF97%7D" target="_self" title="ליגות"><!--
+-->ליגות</a>
+</li>
+<li class="first-level">
+<a href="http://football.org.il/national-cup/?national_cup_id=618&amp;season_id=20" target="_blank" title="גביע המדינה"><!--
+-->גביע המדינה</a>
+</li>
+<li class="first-level">
+<a href="/totocup/priemerleague/?league_id=625&amp;season_id=20" target="_self" title="גביע הטוטו"><!--
+-->גביע הטוטו</a>
+</li>
+<li class="first-level">
+<a href="/?catid=%7B9A091AD7-81B3-4C35-A228-492F946CD7F0%7D" target="_self" title="לוח אירועים"><!--
+-->לוח אירועים</a>
+</li>
+<li class="first-level">
+<a href="/?catid=%7B526A3A51-4A27-44B9-9B03-1C65259E1451%7D" target="_self" title="מגזין"><!--
+-->מגזין</a>
+</li>
+<li class="first-level">
+<a href="/contact-us/" target="_self" title="צור קשר"><!--
+-->צור קשר</a>
+</li>
+</ul></nav>
+<nav class="footer-menu" role="navigation">
+<h2>פרטים נוספים</h2>
+<ul>
+<li class="first-level">
+<a href="/?catid=%7B48105550-5B23-4410-8D6F-BF60565ECBC2%7D" target="_self" title="חוקת המשחק"><!--
+-->חוקת המשחק
+                        </a></li>
+<li class="first-level">
+<a href="/hatrada-of-moganot-act/" target="_self" title="מניעת הטרדה מינית וקידום מוגנות בספורט"><!--
+-->מניעת הטרדה מינית וקידום מוגנות בספורט
+                        </a></li>
+<li class="first-level">
+<a href="/?catid=%7BB695406D-0A4C-4B56-BE91-7DE89C081241%7D" target="_self" title="פרסומים"><!--
+-->פרסומים
+                        </a></li>
+<li class="first-level">
+<a href="/association/aboutassociation/rules/" target="_self" title="תקנונים"><!--
+-->תקנונים
+                        </a></li>
+<li class="first-level">
+<a href="/association/aboutassociation/tenders/" target="_self" title="מכרזים"><!--
+-->מכרזים
+                        </a></li>
+<li class="first-level">
+<a href="/termsofuse/" target="_self" title="תנאי שימוש"><!--
+-->תנאי שימוש
+                        </a></li>
+<li class="first-level">
+<a href="/securitypolicy/" target="_self" title="מדיניות פרטיות"><!--
+-->מדיניות פרטיות
+                        </a></li>
+<li class="first-level">
+<a href="/copyright/" target="_self" title="זכויות יוצרים"><!--
+-->זכויות יוצרים
+                        </a></li>
+<li class="first-level">
+<a href="/association/aboutassociation/faq/" target="_self" title="שאלות ותשובות"><!--
+-->שאלות ותשובות
+                        </a></li>
+<li class="first-level">
+<a href="/forms/" target="_self" title="טפסים"><!--
+-->טפסים
+                        </a></li>
+<li class="first-level">
+<a href="/site_map/" target="_self" title="מפת אתר"><!--
+-->מפת אתר
+                        </a></li>
+<li class="first-level">
+<a href="/?catid=%7B4E22624C-6A40-4248-AE8D-451439A74939%7D" target="_self" title="הסדרי נגישות - ההתאחדות לכדורגל"><!--
+-->הסדרי נגישות - ההתאחדות לכדורגל
+                        </a></li>
+<li class="first-level">
+<a href="/freedom-of-information-act/" target="_self" title="חוק חופש המידע"><!--
+-->חוק חופש המידע
+                        </a></li>
+</ul></nav>
+<div class="footer-menu">
+<h2>פרטי התקשרות</h2>
+<ul>
+<li class="location"><i class="icon icon-location-01"></i>אצטדיון רמת גן. ת.ד. 10030
+</li>
+<li class="address"><i class="icon icon-clock"></i>שעות פעילות: א'-ה' 09:00-17:00</li>
+<li class="telephone first"><a href="tel:03-617-1500"><i class="icon icon-phone"></i><span class="sr-only">טלפון: </span><span>03-617-1500</span></a></li>
+<br/>
+<li class="location"><i class="icon icon-location-01"></i>אצטדיון נשר, דרך בר יהודה </li>
+<li class="address"><i class="icon icon-clock"></i>שעות פעילות: א'-ג 17:00-09:00<br/>
+יום ד' 09:00 -15:00
+יום ה' 09:00 - 17:00
+</li>
+<li class="telephone first"><a href="tel:03-617-1519"><i class="icon icon-phone"></i><span class="sr-only">טלפון</span><span>03-6171519</span></a></li>
+</ul>
+</div><!--
+--><div class="footer-menu footer-logo clearfix">
+<div class="logo">
+<a href="https://www.football.org.il/">
+<img alt="לחץ כאן כדי לעבור לדף הבית של " src="files/logo.png"/>
+<div class="slogan">ההתאחדות<span> לכדורגל בישראל</span></div>
+</a>
+</div>
+</div></div>
+</section>
+<div class="pionet"><a href="http://pionet.co.il"><img alt="UI Design and Technology by Pionet" src="SVTemplate/img/pionetFull.png"/></a></div>
+</footer>
+<script src="SVTemplate/js/prod.min.js?v=2.0.5.13"></script><script src="SVTemplate/js/prod/search.min.js?v=2.0.5.13"></script></form>
+<script src="SVTemplate/js/libs/svg4everybody/svg4everybody.min.js" type="text/javascript"></script>
+<script type="text/javascript">svg4everybody();</script>
+</body>
+</html>

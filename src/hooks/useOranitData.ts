@@ -6,13 +6,7 @@ import {
   filterForDiscipline,
   filterForEfficiency,
 } from "@/utils/playerMetrics";
-import {
-  MIN_CAPS_FOR_LOSS_RATIO,
-  managerPoints,
-  playerLossRatio,
-  playerLosses,
-  playerWins,
-} from "@/utils/outcomeMetrics";
+import { managerPoints, playerLosses, playerWins } from "@/utils/outcomeMetrics";
 
 const dataset = rawData as OranitDataset;
 
@@ -135,19 +129,6 @@ export function useOranitData() {
     [players],
   );
 
-  const worstLossRatio = useMemo(
-    () =>
-      [...players]
-        .filter((p) => p.caps >= MIN_CAPS_FOR_LOSS_RATIO && playerLosses(p) > 0)
-        .sort(
-          (a, b) =>
-            playerLossRatio(b) - playerLossRatio(a) ||
-            playerLosses(b) - playerLosses(a),
-        )
-        .slice(0, 10),
-    [players],
-  );
-
   const managersByPoints = useMemo(
     () =>
       [...managers].sort(
@@ -196,7 +177,6 @@ export function useOranitData() {
     topManagers,
     topWinners,
     topLosers,
-    worstLossRatio,
     managersByPoints,
   };
 }

@@ -5,14 +5,12 @@ import type { OranitManager, OranitPlayer } from "@/types/oranit";
 interface OutcomesDashboardProps {
   topWinners: OranitPlayer[];
   topLosers: OranitPlayer[];
-  worstLossRatio: OranitPlayer[];
   managersByPoints: OranitManager[];
 }
 
 export function OutcomesDashboard({
   topWinners,
   topLosers,
-  worstLossRatio,
   managersByPoints,
 }: OutcomesDashboardProps) {
   return (
@@ -33,9 +31,6 @@ export function OutcomesDashboard({
         <div className="grid gap-6 lg:grid-cols-2">
           <OutcomeLeaderboard variant="winners" players={topWinners} />
           <OutcomeLeaderboard variant="losers" players={topLosers} />
-        </div>
-        <div className="mt-6">
-          <OutcomeLeaderboard variant="lossRatio" players={worstLossRatio} />
         </div>
       </section>
 

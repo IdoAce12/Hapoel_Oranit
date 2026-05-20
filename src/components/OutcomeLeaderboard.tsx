@@ -1,12 +1,7 @@
 import type { OranitPlayer } from "@/types/oranit";
-import {
-  formatPercent,
-  playerLosses,
-  playerLossRatio,
-  playerWins,
-} from "@/utils/outcomeMetrics";
+import { playerLosses, playerWins } from "@/utils/outcomeMetrics";
 
-export type OutcomeLeaderboardVariant = "winners" | "losers" | "lossRatio";
+export type OutcomeLeaderboardVariant = "winners" | "losers";
 
 interface OutcomeLeaderboardProps {
   variant: OutcomeLeaderboardVariant;
@@ -27,7 +22,7 @@ const VARIANT_CONFIG: Record<
 > = {
   winners: {
     title: "מלכי הניצחונות",
-    subtitle: "טופ 10 — הכי הרבה ניצחונות בליגה",
+    subtitle: "טופ 10 — ניצחונות מצטברים ממשחקי ליגה (פרוטוקול)",
     badge: "Winnable",
     badgeClass:
       "border-emerald-400/40 bg-emerald-500/15 text-emerald-200 shadow-[0_0_20px_rgba(52,211,153,0.25)]",
@@ -37,38 +32,22 @@ const VARIANT_CONFIG: Record<
   },
   losers: {
     title: "מלכי ההפסדים",
-    subtitle: "טופ 10 — הכי הרבה הפסדים בליגה",
+    subtitle: "טופ 10 — הפסדים מצטברים ממשחקי ליגה (פרוטוקול)",
     badge: "Heavy Hearts",
     badgeClass: "border-slate-600/50 bg-slate-800/80 text-slate-400",
     valueLabel: "הפסדים",
     barClass: "from-slate-600 via-slate-700 to-slate-800",
     valueClass: "text-slate-400",
   },
-  lossRatio: {
-    title: "יחס הפסדים גרוע",
-    subtitle: `טופ 10 — הפסדים ÷ הופעות (מינימום ${15} משחקים)`,
-    badge: "W/L Ratio",
-    badgeClass: "border-rose-500/30 bg-rose-950/50 text-rose-300/90",
-    valueLabel: "יחס הפסדים",
-    barClass: "from-rose-700 via-red-900 to-slate-900",
-    valueClass: "text-rose-300",
-  },
 };
 
 function metricValue(player: OranitPlayer, variant: OutcomeLeaderboardVariant): number {
-  if (variant === "winners") return playerWins(player);
-  if (variant === "losers") return playerLosses(player);
-  return playerLossRatio(player);
-}
-
-function formatValue(player: OranitPlayer, variant: OutcomeLeaderboardVariant): string {
-  if (variant === "lossRatio") return formatPercent(playerLossRatio(player));
-  return String(metricValue(player, variant));
+  return variant === "winners" ? playerWins(player) : playerLosses(player);
 }
 
 export function OutcomeLeaderboard({ variant, players }: OutcomeLeaderboardProps) {
   const config = VARIANT_CONFIG[variant];
-  const max = Math.max(metricValue(players[0], variant), 0.01);
+  const max = Math.max(metricValue(players[0], variant), 1);
 
   return (
     <section className="rounded-2xl border border-violet-500/25 bg-oranit-navy/80 p-5 shadow-glow backdrop-blur-sm">
@@ -96,10 +75,7 @@ export function OutcomeLeaderboard({ variant, players }: OutcomeLeaderboardProps
         <ol className="space-y-2">
           {players.map((player, index) => {
             const value = metricValue(player, variant);
-            const width = Math.max(
-              8,
-              Math.round((value / max) * 100),
-            );
+            const width = Math.max(8, Math.round((value / max) * 100));
 
             return (
               <li
@@ -126,7 +102,7 @@ export function OutcomeLeaderboard({ variant, players }: OutcomeLeaderboardProps
                       <span
                         className={`shrink-0 font-display text-lg font-semibold ${config.valueClass}`}
                       >
-                        {formatValue(player, variant)}
+                        {value}
                         <span className="mr-1 text-xs font-normal text-slate-500">
                           {config.valueLabel}
                         </span>
@@ -138,11 +114,10 @@ export function OutcomeLeaderboard({ variant, players }: OutcomeLeaderboardProps
                         style={{ width: `${width}%` }}
                       />
                     </div>
-                    {variant === "lossRatio" && (
-                      <p className="mt-1 text-xs text-slate-500">
-                        {playerLosses(player)} הפסדים · {player.caps} הופעות
-                      </p>
-                    )}
+                    <p className="mt-1 text-xs text-slate-500">
+                      {player.caps} הופעות · {playerWins(player)}נ׳{" "}
+                      {playerLosses(player)}ה׳
+                    </p>
                   </div>
                 </div>
               </li>
