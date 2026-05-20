@@ -6,10 +6,22 @@ import {
   filterForDiscipline,
   filterForEfficiency,
 } from "@/utils/playerMetrics";
+import {
+  MIN_CAPS_FOR_LOSS_RATIO,
+  managerPoints,
+  playerLossRatio,
+  playerLosses,
+  playerWins,
+} from "@/utils/outcomeMetrics";
 
 const dataset = rawData as OranitDataset;
 
-export type AppTab = "legacy" | "efficiency" | "discipline" | "managers";
+export type AppTab =
+  | "legacy"
+  | "efficiency"
+  | "discipline"
+  | "managers"
+  | "outcomes";
 
 export function useOranitData() {
   const [activeTab, setActiveTab] = useState<AppTab>("legacy");
@@ -95,6 +107,58 @@ export function useOranitData() {
     [players],
   );
 
+  const topWinners = useMemo(
+    () =>
+      [...players]
+        .filter((p) => playerWins(p) > 0)
+        .sort(
+          (a, b) =>
+            playerWins(b) - playerWins(a) ||
+            b.caps - a.caps ||
+            playerLosses(a) - playerLosses(b),
+        )
+        .slice(0, 10),
+    [players],
+  );
+
+  const topLosers = useMemo(
+    () =>
+      [...players]
+        .filter((p) => playerLosses(p) > 0)
+        .sort(
+          (a, b) =>
+            playerLosses(b) - playerLosses(a) ||
+            b.caps - a.caps ||
+            playerWins(a) - playerWins(b),
+        )
+        .slice(0, 10),
+    [players],
+  );
+
+  const worstLossRatio = useMemo(
+    () =>
+      [...players]
+        .filter((p) => p.caps >= MIN_CAPS_FOR_LOSS_RATIO && playerLosses(p) > 0)
+        .sort(
+          (a, b) =>
+            playerLossRatio(b) - playerLossRatio(a) ||
+            playerLosses(b) - playerLosses(a),
+        )
+        .slice(0, 10),
+    [players],
+  );
+
+  const managersByPoints = useMemo(
+    () =>
+      [...managers].sort(
+        (a, b) =>
+          managerPoints(b) - managerPoints(a) ||
+          (b.wins ?? 0) - (a.wins ?? 0) ||
+          b.totalMatches - a.totalMatches,
+      ),
+    [managers],
+  );
+
   const topByRedCards = useMemo(
     () =>
       [...players]
@@ -130,6 +194,10 @@ export function useOranitData() {
     topByRedCards,
     managers,
     topManagers,
+    topWinners,
+    topLosers,
+    worstLossRatio,
+    managersByPoints,
   };
 }
 

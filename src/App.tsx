@@ -4,6 +4,7 @@ import { DisciplineLeaderboard } from "@/components/DisciplineLeaderboard";
 import { DisciplinePortal } from "@/components/DisciplinePortal";
 import { EfficiencyLeaderboard } from "@/components/EfficiencyLeaderboard";
 import { ManagersLeaderboard } from "@/components/ManagersLeaderboard";
+import { OutcomesDashboard } from "@/components/OutcomesDashboard";
 import { PlayerDetailModal } from "@/components/PlayerDetailModal";
 import { PlayerSearch } from "@/components/PlayerSearch";
 import { StatsLeaderboard } from "@/components/StatsLeaderboard";
@@ -27,6 +28,7 @@ const TABS: { id: AppTab; label: string }[] = [
   { id: "managers", label: "מאמנים על הקווים" },
   { id: "discipline", label: "פורטל משמעת" },
   { id: "efficiency", label: "יעילות" },
+  { id: "outcomes", label: "תוצאות וטקטיקה" },
 ];
 
 export default function App() {
@@ -44,6 +46,10 @@ export default function App() {
     topByYellowCards,
     topByRedCards,
     topManagers,
+    topWinners,
+    topLosers,
+    worstLossRatio,
+    managersByPoints,
   } = useOranitData();
 
   const [selectedPlayer, setSelectedPlayer] = useState<OranitPlayer | null>(null);
@@ -169,6 +175,15 @@ export default function App() {
               />
             </div>
           </div>
+        )}
+
+        {activeTab === "outcomes" && (
+          <OutcomesDashboard
+            topWinners={topWinners}
+            topLosers={topLosers}
+            worstLossRatio={worstLossRatio}
+            managersByPoints={managersByPoints}
+          />
         )}
 
         <footer className="mt-12 border-t border-violet-500/20 pt-6 text-center text-xs text-slate-500">

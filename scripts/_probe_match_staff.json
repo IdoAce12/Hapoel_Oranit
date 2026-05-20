@@ -1,0 +1,207 @@
+[
+  {
+    "side": "home",
+    "team_id": "2735",
+    "block_class": [
+      "home",
+      "clearfix"
+    ],
+    "rows": []
+  },
+  {
+    "side": "home",
+    "team_id": "2735",
+    "block_class": [
+      "home",
+      "Active",
+      "clearfix"
+    ],
+    "rows": [
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 23 ולרי גורלצ'וב - (GK)"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 4 יהונתן ניצן"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 5 תומר אגובל כרטיס צהוב דקה 90"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 8 רואי גרסי יצא דקה 57"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 11 יוגב ציפרוט"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 18 בן לאויז קוסטא - (C)"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 20 עמית יעקב יצא דקה 46"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 21 שחר גרין"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 27 תובל גולדנברג"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 77 מתן תורתי"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 99 לירון יצחק פנדל דקה 30 שער דקה 55"
+      }
+    ]
+  },
+  {
+    "side": "home",
+    "team_id": "2735",
+    "block_class": [
+      "home",
+      "Replacement"
+    ],
+    "rows": [
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 16 בר יצחק נכנס דקה 46"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 15 ראובן סימן טוב נכנס דקה 57"
+      }
+    ]
+  },
+  {
+    "side": "guest",
+    "team_id": "2522",
+    "block_class": [
+      "guest",
+      "clearfix"
+    ],
+    "rows": []
+  },
+  {
+    "side": "guest",
+    "team_id": "2522",
+    "block_class": [
+      "guest",
+      "Active",
+      "clearfix"
+    ],
+    "rows": [
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 69 בן לוי - (GK)"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 9 נתנאל משה אסייג שער דקה 56"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 10 אדגר שמייב - (C) שער דקה 54"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 11 סהר סופר יצא דקה 78"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 13 ברהנו קבדה"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 14 תמיר בן עמי"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 26 נדב אביטן"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 29 אורן שימחי שער דקה 12 יצא דקה 62"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 31 רועי מהרטה יצא דקה 88"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 44 יוסי גואטה יצא דקה 34"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 70 תומר בוחבוט יצא דקה 71"
+      }
+    ]
+  },
+  {
+    "side": "guest",
+    "team_id": "2522",
+    "block_class": [
+      "guest",
+      "Replacement"
+    ],
+    "rows": [
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 55 יובל יפת נכנס דקה 34"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 8 שלומי מלכה נכנס דקה 62"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 77 עומר סמינה נכנס דקה 71"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 20 אסף פיסיקוביץ נכנס דקה 78"
+      },
+      {
+        "tag": "a",
+        "class": null,
+        "text": "מס' 5 אלירן חי שלום נכנס דקה 88"
+      }
+    ]
+  }
+]
