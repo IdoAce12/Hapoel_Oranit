@@ -128,7 +128,7 @@ export default function App() {
 
         {activeTab === "legacy" && (
           <>
-            <div className="mb-10 grid gap-6 lg:grid-cols-2">
+            <div className="mb-10 flex flex-col gap-6">
               <StatsLeaderboard
                 title="מלכי ההופעות"
                 subtitle="טופ 10 — הופעות רשמיות"
@@ -187,7 +187,7 @@ export default function App() {
       </div>
 
       <footer className="relative mt-auto border-t border-violet-500/15 py-8 text-center">
-        <p className="text-sm text-zinc-500">נוצר ע&quot;י IdoAce12</p>
+        <p className="text-sm text-zinc-500">{"נוצר ע\"י IdoAce12"}</p>
       </footer>
 
       <PlayerDetailModal

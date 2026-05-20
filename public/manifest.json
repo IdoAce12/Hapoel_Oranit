@@ -3,15 +3,24 @@
   "name": "היכל התהילה - הפועל אורנית",
   "icons": [
     {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hammer_and_sickle_red_on_transparent.svg/1200px-Hammer_and_sickle_red_on_transparent.svg.png",
+      "src": "/image_f26cae.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
+    },
+    {
+      "src": "/image_f26cae.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
     }
   ],
   "start_url": ".",
+  "scope": "/",
   "background_color": "#09090b",
   "theme_color": "#9333ea",
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "lang": "he",
+  "dir": "rtl"
 }
